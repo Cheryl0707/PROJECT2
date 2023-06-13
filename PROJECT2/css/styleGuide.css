@@ -1,0 +1,239 @@
+
+
+
+  /* Add space and lines between <section> elements. */
+  section:not([id]) {
+    margin: 2em 0;
+    padding: 0.5em 0;
+    border-top: 0.8px dashed #333;
+  }
+
+
+
+  /* image as a link effects */
+  .image-link {
+    margin: 2rem;
+    width: 2rem;
+    height: auto;
+    filter: opacity(50%)
+  }
+
+  /* Add a different hover and focus state styling to the image as a link. */
+  .image-link:hover,
+  .image-link:focus {
+    filter: opacity(100%)
+  }
+
+  /* Shorten the default width of the <p> element, but ensure it is still responsive when the viewport shrinks. */
+
+  p {
+    max-width: 100%;
+
+  }
+
+  /* Add a different hover and focus state styling to the in-text link. */
+  a:hover,
+  a:focus,
+  a:active {
+    color: #fddb00;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+
+  a {
+    color: black;
+  }
+
+  /* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+  /* 
+  COMBINED ELEMENTS -------------------
+*/
+
+
+
+
+
+  /* navigation bar:change to light grey and yellow text with underline when hovering */
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(211, 211, 211, 0.7);
+  }
+
+  nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 1rem;
+  }
+
+  nav:hover,
+  nav:focus {
+    display: flex;
+    background-color: rgba(240, 240, 240);
+    transition-duration: 0.8s;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    color: black;
+    text-decoration: underline;
+    padding: 1rem;
+    transition-duration: 0.8s;
+  }
+
+
+  /* for product listing */
+  .product-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.2rem;
+    /* border:1px solid black; */
+  }
+
+  /* image hovering and focus effects */
+
+  .product-listing img {
+    max-width: 100%;
+    height: auto;
+    filter: opacity(80%)
+  }
+
+  .product-listing img:hover,
+  .product-listing img:focus {
+    filter: opacity(100%)
+  }
+
+  .product-listing h2 {
+    text-align: center;
+    font-size: 1rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: lighter;
+    color: black;
+    margin-bottom: 0;
+  }
+
+
+
+  /* headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+
+
+  /* branding style  */
+  .brand-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  .brand-block {
+    background-color: #eeeeee85;
+    max-width: 22rem;
+    padding: 1.5rem;
+    align-items: center;
+  }
+
+  .brand-block h2,
+  .branding-block h4 {
+    margin-bottom: 1rem;
+  }
+
+  .brand-block-p {
+    margin-bottom: 1.4rem;
+    /* border:1px solid black; */
+    margin-top: 1.1rem;
+    font-size: 1rem;
+
+  }
+
+  .brand-block p {
+    font-size: 0.8rem;
+  }
+
+  .brand-color-yellow {
+    background-color: #fddb00;
+    padding: 3rem;
+    width: 20rem;
+    height: auto;
+  }
+
+  .brand-color-yellow p,
+  .brand-color-greyBlock p {
+    color: black;
+  }
+
+  .brand-color-yellow p,
+  .brand-color-black p,
+  .brand-color-greyFont p,
+  .brand-color-greyBlock p {
+    margin: 0;
+    font-size: 0.6rem;
+
+  }
+
+  .brand-color-black {
+    background-color: black;
+    padding: 3rem;
+    width: 20rem;
+    height: auto;
+  }
+
+
+  .brand-color-greyFont {
+    background-color: #777b7e;
+    padding: 3rem;
+    width: 20rem;
+    height: auto;
+  }
+
+  .brand-color-black p,
+  .brand-color-black h2,
+  .brand-color-greyFont p,
+  .brand-color-greyFont h2 {
+    color: white;
+  }
+
+  .brand-color-greyBlock {
+    background-color: #EEEEEE85;
+    padding: 3rem;
+    width: 20rem;
+    height: auto;
+
+  }
+
+  .brand-img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(90%)
+  }
+
+  .image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+
+
+
+  .checkout-focus {
+    /* background-color: #; */
+    color: black;
+  }

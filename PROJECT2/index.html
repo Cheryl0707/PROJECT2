@@ -2,183 +2,448 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <!-- Set the meta viewport tag Links to an external site. to ensure your page scales appropriately on mobile devices. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melody & Cheryl Project 2 </title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/main.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <!-- Set the meta viewport tag Links to an external site. to ensure your page scales appropriately on mobile devices. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melody & Cheryl Project 2 </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ysabeau">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/styleGuide.css" rel="stylesheet">
 
 
 
 </head>
 
 <body>
-    <section id="combined_elements">
-        <h1 class="combine-element">Combined Elements</h1>
-  
-        <section id="product_list">
-          <h3>Product/Service Listing</h3>
-          <div class="products">
-            <div class="product-container">
-              <div class="product-container-image">
-                <a href="#">
-                  <img src="images/product_image1.png" alt="product picture">
-                </a>
-              </div>
-              <div class="product-container-info">
-                <a href="#"><h2>MintC Logo - White</h2></a>
-                <p class="product-container-price">CAD 66.66</p>
-                <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that 
-                  represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are 
-                  mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
-                 
-              </div>
-            </div>
-  
-            <div class="product-container">
-              <div class="product-container-image">
-                <a href="#">
-                  <img src="images/product_image2.png" alt="product picture">
-                </a>
-              </div>
-              <div class="product-container-info">
-                <a href="#"><h2>MintC Logo - Black</h2></a>
-                <p class="product-container-price">CAD 66.66</p>
-                <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that 
-                  represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are 
-                  mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
-              
-              </div>
-            </div>
-  
-            <div class="product-container">
-              <div class="product-container-image">
-                <a href="#">
-                  <img src="images/product_image3.png" alt="product picture">
-                </a>
-              </div>
-              <div class="product-container-info">
-                <a href="#"><h2>MintC Logo - Stylized</h2></a>
-              
-                <p class="product-container-price">CAD 66.66</p>
-                <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that 
-                  represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are 
-                  mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
-              
-              </div>
-            </div>
-            
-          <!-- product list end here -->
+  <h1>Pop Fashion Style Guide</h1>
+
+  <p>A style guide for the company Pop Fashion.</p>
+
+
+
+  <nav>
+    <a href="MelodyRenP01.html#interactive_elements">Interactive Elements</a>
+    <a href="MelodyRenP01.html#text_elements">Text Elements</a>
+    <a href="MelodyRenP01.html#combinedElements">Combined Elements</a>
+    <a href="ProductListing.html">Product
+      Listing Template</a>
+    <a href="Checkout.html">Checkout Cart Template</a>
+  </nav>
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+
+    <!-- Default Button styling section -->
+    <section>
+
+      <h2>Navigation Button</h2>
+      <nav>
+        <a class="button" href="#">New</a>
+      </nav>
+
+    </section>
+
+    <section>
+      <h2>In-text link</h2>
+      <p>Start <a href="https://www.google.com">Search</a> Here</p>
+
+    </section>
+
+    <section>
+      <h2>Submit/Reset Buttons</h2>
+      <div>
+        <input class="payment-submit-button" type="submit" value="SUBMIT">
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Text Input Field</h2>
+      <!-- text input with label citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label -->
+      <div class="payment-form">
+        <div class="payment-block">
+          <label for="name">First name:</label>
+          <input type="text" id="name">
+        </div>
+      </div>
+    </section>
+
+    <section class="element">
+
+      <h3>Radio Button with Label</h3>
+
+
+      <div>
+
+        <div class="radio-button-for-card">
+          <input type="radio" id="visa" name="fav_language" value="visa">
+          <label for="visa">Visa</label><br>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- learned from :https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
+    <section>
+      <h2>An image as a link </h2>
+
+      <div>
+        <p>The image below is a link from online resources. Try to click it.</p>
+        <div class="image-link">
+          <a
+            href="https://cdn.dribbble.com/users/61921/screenshots/9634673/media/985b2add2b952f24634b717c4d846bf2.png?compress=1&resize=400x300">
+            <img src="images/coverimg.jpg" alt="image"></a>
+        </div>
+      </div>
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+
+    <section>
+      <h2>Four Levels of Headings</h2>
+
+      <div>
+        <h1>Heading One For Heading- 1.2 rem</h1>
+        <h2>Heading Two For Heading - 1 rem</h2>
+        <h3>Heading Three For Subheading - 0.8 rem</h3>
+        <h4>Heading Four Subheading - 0.6 rem</h4>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Paragraphs</h2>
+
+      <div>
+        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing
+          layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and
+          publishing industries for previewing
+          layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and
+          publishing industries for previewing
+          layouts and visual mockups.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Bulleted Lists</h2>
+
+      <ul>
+        <li>Black Hoodie</li>
+        <li>Red Hoodie</li>
+        <li>Grey Hoodie</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Numbered Lists</h2>
+
+      <ol>
+        <li>Black Hoodie</li>
+        <li>Red Hoodie</li>
+        <li>Grey Hoodie</li>
+      </ol>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+  <section id="combined_elements">
+    <h1 class="combine-element">Combined Elements</h1>
+
+    <section id="product_list">
+      <h3>Product/Service Listing</h3>
+      <div class="products">
+        <div class="product-container">
+          <div class="product-container-image">
+            <a href="#">
+              <img src="images/product_image1.png" alt="product picture">
+            </a>
           </div>
-          </section>
-        </section>
-        <section id="Shopping-cart">
-          <h3>Shopping Cart</h3>
-          <div class="shopping-cart">
-            <div class="cart-bag">
-              <div class="cart-item">
-                <div class="cart-image">
-                  <img
-                    src="images/product_image1.png"
-                    alt="mintc-logo-white"
-                  />
-                </div>
-                <div class="cart-info">
-                  <div>
-                    <h3>MintC Logo</h3>
-                    <div>Color: White</div>
-                  </div>
-  
-                  <div>
-                    <span>CAD 66.66</span>
-                    <span> &#x2715; 1 </span>
-                    <span>CAD 66.66</span>
-                  </div>
-                </div>
-              </div>
-  
-              <div class="cart-item">
-                <div class="cart-image">
-                  <img
-                    src="images/product_image2.png"
-                    alt="mintc-logo-2"
-                  />
-                </div>
-                <div class="cart-info">
-                  <div>
-                      <h3>MintC Logo</h3>
-                      <div>Color: Black</div>
-                    </div>
-  
-                  <div>
-                    <span>CAD 66.66</span>
-                    <span> &#x2715; 1 </span>
-                    <span>CAD 66.66</span>
-                  </div>
-                </div>
-              </div>
+          <div class="product-container-info">
+            <a href="#">
+              <h2>MintC Logo - White</h2>
+            </a>
+            <p class="product-container-price">CAD 66.66</p>
+            <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that
+              represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are
+              mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
+
+          </div>
+        </div>
+
+        <div class="product-container">
+          <div class="product-container-image">
+            <a href="#">
+              <img src="images/product_image2.png" alt="product picture">
+            </a>
+          </div>
+          <div class="product-container-info">
+            <a href="#">
+              <h2>MintC Logo - Black</h2>
+            </a>
+            <p class="product-container-price">CAD 66.66</p>
+            <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that
+              represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are
+              mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
+
+          </div>
+        </div>
+
+        <div class="product-container">
+          <div class="product-container-image">
+            <a href="#">
+              <img src="images/product_image3.png" alt="product picture">
+            </a>
+          </div>
+          <div class="product-container-info">
+            <a href="#">
+              <h2>MintC Logo - Stylized</h2>
+            </a>
+
+            <p class="product-container-price">CAD 66.66</p>
+            <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that
+              represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are
+              mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
+
+          </div>
+        </div>
+
+        <!-- product list end here -->
+      </div>
+    </section>
+  </section>
+  <section id="Shopping-cart">
+    <h3>Shopping Cart</h3>
+    <div class="shopping-cart">
+      <div class="cart-bag">
+        <div class="cart-item">
+          <div class="cart-image">
+            <img src="images/product_image1.png" alt="mintc-logo-white" />
+          </div>
+          <div class="cart-info">
+            <div>
+              <h3>MintC Logo</h3>
+              <div>Color: White</div>
             </div>
-  
-            <div class="cart-summary">
-              <h3>ORDER SUMMARY</h3>
-              <div><span>Subtotal:</span><span>$133.32</span></div>
-              <div><span>Shipping:</span><span>$6.66</span></div>
-              <div><span>Tax:</span><span>12%</span></div>
-              <div><span>TOTAL:</span><span>$156.77</span></div>
+
+            <div>
+              <span>CAD 66.66</span>
+              <span> &#x2715; 1 </span>
+              <span>CAD 66.66</span>
             </div>
           </div>
-        </section>
-      </section>
-      <!-- end of shopping cart-->
-  
-        <section id="payment">
-          <!-- <h3>Payment Form</h3> -->
-          
-          <div class="payment_form">
-            <div class="address">
-              <h2>Billing Address</h2> 
-  
-              <label for="firstName">First Name</label>
-              <input type="text" id="firstName" placeholder="Please input your First name">
-  
-              <label for="lastName">Last Name</label>
-              <input type="text" id="lastName" placeholder="Please input your Last name">
-  
-              <label for="email">Email</label>
-              <input type="text" id="email" placeholder="Please input your Email. eg.sfu123@gmail.com">
-  
-              <label for="address">Address</label>
-              <input type="text" id="address" placeholder="Please input your Address. eg. 5771 - 3rd street, Richmond, BC">
-            </div>
-            
-            <div class="credit-card-info">
-              <h2>Payment Card</h2>
-                <div class="radio-button-for-card">
-                  <input type="radio" id="Visa" name="Credit card">
-                  <label for="Visa">Visa</label>
-                  <input type="radio" id="Master" name="Credit card">
-                  <label for="Master">Master</label>
-                </div>
-  
-                <div>
-                <label for="CardNum">Card Number</label>
-                <input type="text" id="CardNum" placeholder="6666-6666-6666-6666">
-  
-                <label for="Name-on-card">Name on card</label>
-                <input type="text" id="Name-on-card" placeholder="Cheryl Liu">
-  
-                <label for="ExpiredDate">Expired Date</label>
-                <input type="text" id="ExpiredDate" placeholder="12/30/2099">
-  
-                <label for="CVV">CVV</label>
-                <input type="text" id="CVV" placeholder="999">
-  
-                <input class="payment-submit-button" type="submit" value="Submit">
-              </div>
-              
+        </div>
+
+        <div class="cart-item">
+          <div class="cart-image">
+            <img src="images/product_image2.png" alt="mintc-logo-2" />
           </div>
-        </section>
+          <div class="cart-info">
+            <div>
+              <h3>MintC Logo</h3>
+              <div>Color: Black</div>
+            </div>
+
+            <div>
+              <span>CAD 66.66</span>
+              <span> &#x2715; 1 </span>
+              <span>CAD 66.66</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cart-summary">
+        <h3>ORDER SUMMARY</h3>
+        <div><span>Subtotal:</span><span>$133.32</span></div>
+        <div><span>Shipping:</span><span>$6.66</span></div>
+        <div><span>Tax:</span><span>12%</span></div>
+        <div><span>TOTAL:</span><span>$156.77</span></div>
+      </div>
+    </div>
+  </section>
+  </section>
+  <!-- end of shopping cart-->
+
+  <section id="payment">
+    <!-- <h3>Payment Form</h3> -->
+
+    <div class="payment_form">
+      <div class="address">
+        <h2>Billing Address</h2>
+
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="Please input your First name">
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" placeholder="Please input your Last name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Please input your Email. eg.sfu123@gmail.com">
+
+        <label for="address">Address</label>
+        <input type="text" id="address" placeholder="Please input your Address. eg. 5771 - 3rd street, Richmond, BC">
+      </div>
+
+      <div class="credit-card-info">
+        <h2>Payment Card</h2>
+        <div class="radio-button-for-card">
+          <input type="radio" id="Visa" name="Credit card">
+          <label for="Visa">Visa</label>
+          <input type="radio" id="Master" name="Credit card">
+          <label for="Master">Master</label>
+        </div>
+
+        <div>
+          <label for="CardNum">Card Number</label>
+          <input type="text" id="CardNum" placeholder="6666-6666-6666-6666">
+
+          <label for="Name-on-card">Name on card</label>
+          <input type="text" id="Name-on-card" placeholder="Cheryl Liu">
+
+          <label for="ExpiredDate">Expired Date</label>
+          <input type="text" id="ExpiredDate" placeholder="12/30/2099">
+
+          <label for="CVV">CVV</label>
+          <input type="text" id="CVV" placeholder="999">
+
+          <input class="payment-submit-button" type="submit" value="SUBMIT">
+          <input class="payment-submit-button" type="submit" value="CANCEL" />
+        </div>
+
+      </div>
+  </section>
+
+
+  <section>
+    <h2>Branding ideas</h2>
+    <h4>What does the company do, or offer?</h4>
+    <p>This is a company selling clothes, accessories, and home decor. This website will offer detailed product
+      information, including cloth textures, costs, brand, size and colour, and will provide customers with a clear
+      image of the product. It also offers a shopping feature where customers can add the product to a shopping cart
+      and
+      then check out. Ideally, this website will also have parcel tracking and customer service. </p>
+    <h4>Who is the company to potential customers? (as a person)</h4>
+    <p>Potential customers for this company include women from 18-38 who shop for clothes regularly. One specific
+      example would be a woman named Maggie, who is 24 years old and likes to do online shopping. Moreover, the
+      company,
+      to her as a person, would be someone who has a keen eye for design and daily outfits, which means the company is
+      fashionable, hip and has a vivid and colourful vibe. The company is also young and energetic, with diverse
+      options
+      for the customers to choose from, making it stand out from its competitors. </p>
+    <h4>Why might this company entice someone to purchase a product or service?</h4>
+    <p>The company attempts to create an excellent visual website with bright colours that attract users' attention
+      and
+      uses a clear navigation bar to help users quickly find the product they want. Ideally, the website will also
+      provide similar products for the customers. Moreover, the company will have a distinguishable and memorable
+      value
+      which fits the young customers' core value and attracting marketing strategy on its website. It also has
+      professional customer service, which will meet customers' expectations, gaining numerous positive feedback from
+      the users.</p>
+  </section>
+
+
+
+  <!-- branding contents -->
+
+  <section id="branding">
+    <div>
+      <h2>Assemble Brand Components</h2>
+      <h4>Fonts</h4>
+      <div class="brand-box">
+        <div class="brand-block">
+          <h2>Times New Roman Bold</h2>
+          <p>Times New Roman Bold sizing around 1rem or 0.8rem for headings in black</p>
+        </div>
+        <!-- <div class="brand-block">
+                <h4>Times New Roman Bold</h4>
+                <p>Times New Roman Bold sizing around 0.8rem for subheadings in black</p>
+              </div> -->
+        <div class="brand-block">
+          <p class="brand-block-p">Ysabeau Normal</p>
+          <p>Ysabeau normal sizing around 0.4-1rem for body paragraph in grey(#777b7e)</p>
+        </div>
+      </div>
+
+
+      <h4>Colour palettes</h4>
+      <div class="brand-box">
+        <div class="brand-color-yellow">
+          <h2>#FDDB00</h2>
+          <p>This color is used for interactions.</p>
+          <p>Texts are in black.</p>
+        </div>
+        <div class="brand-color-black">
+          <h2>#000000</h2>
+          <p>This color is used for heading and sub heading texts, as well as labels and buttons.</p>
+          <p>Texts are in white.</p>
+        </div>
+        <div class="brand-color-greyBlock">
+          <h2>#EEEEEE85</h2>
+          <p>This color is used as background color for some section, and for navigation bar.</p>
+        </div>
+        <div class="brand-color-greyFont">
+          <h2>#777B7E</h2>
+          <p>This color is used for body texts, and navigation bar.</p>
+        </div>
+      </div>
+
+      <h4>Potential imagery, and, or, art direction</h4>
+      <div class="image-box">
+        <div class="brand-img">
+          <img src="images/clothes1.jpg" alt="potential image" width="400" height="300">
+        </div>
+        <div class="brand-img">
+          <img src="images/clothes2.jpg" alt="potential image" width="400" height="300">
+        </div>
+        <div class="brand-img">
+          <img src="images/clothes3.jpg" alt="potential image" width="400" height="300">
+        </div>
+        <div class="brand-img">
+          <img src="images/clothes4.jpg" alt="potential image" width="400" height="300">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="citations">
+    <h2>Citations</h2>
+
+    <ul>
+      <li>W3Schools. (n.d.). How TO - Checkout Form. Retrieved from
+        https://www.w3schools.com/howto/howto_css_checkout_form.asp</li>
+      <li>Tutorialspoint. (n.d.). How to use an image as a link in HTML? Retrieved from
+        https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML</li>
+      <li>Mozilla. (n.d.). The Label element. Retrieved from
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label</li>
+      <li>The Impression. (2020). Fendi Ad Campaign Spring 2020 [Image]. Retrieved from
+        https://theimpression.com/wp-content/uploads/2020/02/Fendi-ad-campaign-Spring-2020-Pictures-the-impression-003.jpg
+      </li>
+      <li>H&M. (n.d.). Hoodie [Image]. Retrieved from https://www2.hm.com/en_ca/productpage.0970819001.html</li>
+      <li> New Balance. (n.d.). Made in USA Core Hoodie [Image]. Retrieved from
+        https://www.newbalance.ca/en_ca/pd/made-in-usa-core-hoodie/MT21540.html</li>
+      <li>H&M. (n.d.). Hoodie [Image]. Retrieved from https://www2.hm.com/en_ca/productpage.1099512001.html</li>
+      <li>Google Fonts. (n.d.). Ysabeau [Font preview]. Retrieved from
+        https://fonts.google.com/specimen/Ysabeau?preview.size=23</li>
+      <li>Unsplash. (n.d.). Image library pictures [Photograph]. Retrieved from
+        https://unsplash.com/photos/kJXGTOY1wLQ</li>
+    </ul>
+  </section>
+
+  </section>
 
 </body>
 
