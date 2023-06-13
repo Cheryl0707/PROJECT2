@@ -348,4 +348,7 @@ input {
   .cart-summary {
     width: 100%;
   }
+  nav{
+    flex-wrap: flex-start;
+  }
 }
