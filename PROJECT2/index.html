@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Set the meta viewport tag Links to an external site. to ensure your page scales appropriately on mobile devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/main.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <section id="combined_elements">
+        <h1 class="combine-element">Combined Elements</h1>
+  
+        <section id="product_list">
+          <h3>Product/Service Listing</h3>
+          <div class="products">
+            <div class="product-container">
+              <div class="product-container-image">
+                <a href="#">
+                  <img src="images/product_image1.png" alt="product picture">
+                </a>
+              </div>
+              <div class="product-container-info">
+                <a href="#"><h2>MintC Logo - White</h2></a>
+                <p class="product-container-price">CAD 66.66</p>
+                <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that 
+                  represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are 
+                  mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
+                 
+              </div>
+            </div>
+  
+            <div class="product-container">
+              <div class="product-container-image">
+                <a href="#">
+                  <img src="images/product_image2.png" alt="product picture">
+                </a>
+              </div>
+              <div class="product-container-info">
+                <a href="#"><h2>MintC Logo - Black</h2></a>
+                <p class="product-container-price">CAD 66.66</p>
+                <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that 
+                  represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are 
+                  mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
+              
+              </div>
+            </div>
+  
+            <div class="product-container">
+              <div class="product-container-image">
+                <a href="#">
+                  <img src="images/product_image3.png" alt="product picture">
+                </a>
+              </div>
+              <div class="product-container-info">
+                <a href="#"><h2>MintC Logo - Stylized</h2></a>
+              
+                <p class="product-container-price">CAD 66.66</p>
+                <p class="product_description">NFTs or Non-Fungible Tokens are a kind of cryptocurrency that 
+                  represents a one-of-a-kind digital asset or unique piece of artwork. Fiat and cryptocurrencies are 
+                  mainly used for transactional purposes and are fungible, which means each unit can be interchanged.
+              
+              </div>
+            </div>
+            
+          <!-- product list end here -->
+          </div>
+          </section>
+        </section>
+        <section id="Shopping-cart">
+          <h3>Shopping Cart</h3>
+          <div class="shopping-cart">
+            <div class="cart-bag">
+              <div class="cart-item">
+                <div class="cart-image">
+                  <img
+                    src="images/product_image1.png"
+                    alt="mintc-logo-white"
+                  />
+                </div>
+                <div class="cart-info">
+                  <div>
+                    <h3>MintC Logo</h3>
+                    <div>Color: White</div>
+                  </div>
+  
+                  <div>
+                    <span>CAD 66.66</span>
+                    <span> &#x2715; 1 </span>
+                    <span>CAD 66.66</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="cart-item">
+                <div class="cart-image">
+                  <img
+                    src="images/product_image2.png"
+                    alt="mintc-logo-2"
+                  />
+                </div>
+                <div class="cart-info">
+                  <div>
+                      <h3>MintC Logo</h3>
+                      <div>Color: Black</div>
+                    </div>
+  
+                  <div>
+                    <span>CAD 66.66</span>
+                    <span> &#x2715; 1 </span>
+                    <span>CAD 66.66</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="cart-summary">
+              <h3>ORDER SUMMARY</h3>
+              <div><span>Subtotal:</span><span>$133.32</span></div>
+              <div><span>Shipping:</span><span>$6.66</span></div>
+              <div><span>Tax:</span><span>12%</span></div>
+              <div><span>TOTAL:</span><span>$156.77</span></div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- end of shopping cart-->
+  
+        <section id="payment">
+          <!-- <h3>Payment Form</h3> -->
+          
+          <div class="payment_form">
+            <div class="address">
+              <h2>Billing Address</h2> 
+  
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="Please input your First name">
+  
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" placeholder="Please input your Last name">
+  
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Please input your Email. eg.sfu123@gmail.com">
+  
+              <label for="address">Address</label>
+              <input type="text" id="address" placeholder="Please input your Address. eg. 5771 - 3rd street, Richmond, BC">
+            </div>
+            
+            <div class="credit-card-info">
+              <h2>Payment Card</h2>
+                <div class="radio-button-for-card">
+                  <input type="radio" id="Visa" name="Credit card">
+                  <label for="Visa">Visa</label>
+                  <input type="radio" id="Master" name="Credit card">
+                  <label for="Master">Master</label>
+                </div>
+  
+                <div>
+                <label for="CardNum">Card Number</label>
+                <input type="text" id="CardNum" placeholder="6666-6666-6666-6666">
+  
+                <label for="Name-on-card">Name on card</label>
+                <input type="text" id="Name-on-card" placeholder="Cheryl Liu">
+  
+                <label for="ExpiredDate">Expired Date</label>
+                <input type="text" id="ExpiredDate" placeholder="12/30/2099">
+  
+                <label for="CVV">CVV</label>
+                <input type="text" id="CVV" placeholder="999">
+  
+                <input class="payment-submit-button" type="submit" value="Submit">
+              </div>
+              
+          </div>
+        </section>
+
+</body>
+
+
+</html>
