@@ -31,19 +31,6 @@
 
   }
 
-  /* Add a different hover and focus state styling to the in-text link. */
-  a:hover,
-  a:focus,
-  a:active {
-    color: #fddb00;
-    text-decoration: none;
-    transition-duration: 0.5s;
-  }
-
-  a {
-    color: black;
-  }
-
   /* 
   TEXT ELEMENTS -------------------
 */
@@ -228,12 +215,4 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 0.5rem;
-  }
-
-
-
-
-  .checkout-focus {
-    /* background-color: #; */
-    color: black;
   }
