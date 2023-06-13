@@ -13,9 +13,8 @@
   /* image as a link effects */
   .image-link {
     margin: 2rem;
-    width: 2rem;
+    max-width: 30%;
     height: auto;
-    filter: opacity(50%)
   }
 
   /* Add a different hover and focus state styling to the image as a link. */
@@ -46,7 +45,7 @@
 
 
 
-  /* navigation bar:change to light grey and yellow text with underline when hovering */
+  /* navigation bar:change to light grey and green text with underline when hovering */
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +115,7 @@
   h4,
   h5,
   h6 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Ysabeau Bold;
     color: black;
   }
 
@@ -153,19 +152,18 @@
     font-size: 0.8rem;
   }
 
-  .brand-color-yellow {
-    background-color: #fddb00;
+  .brand-color-green {
+    background-color: #04AA6D;
     padding: 3rem;
     width: 20rem;
     height: auto;
   }
 
-  .brand-color-yellow p,
   .brand-color-greyBlock p {
     color: black;
   }
 
-  .brand-color-yellow p,
+  .brand-color-green p,
   .brand-color-black p,
   .brand-color-greyFont p,
   .brand-color-greyBlock p {
@@ -192,7 +190,7 @@
   .brand-color-black p,
   .brand-color-black h2,
   .brand-color-greyFont p,
-  .brand-color-greyFont h2 {
+  .brand-color-greyFont h2,  .brand-color-green p,.brand-color-green h2 {
     color: white;
   }
 
