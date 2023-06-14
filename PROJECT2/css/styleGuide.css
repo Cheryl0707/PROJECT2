@@ -214,3 +214,13 @@
     justify-content: flex-start;
     gap: 0.5rem;
   }
+
+  .brandinfo p{
+    font-size: 0.8rem;
+    max-width:90%;
+    margin-top: 0;
+
+  }
+  .brandinfo h4{
+    margin-bottom: 0.4rem;
+  }
