@@ -1,0 +1,43 @@
+.company-updates {
+    text-align: center;
+  }
+  
+  .company-updates-content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .company-updates h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .company-updates p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .company-updates a {
+    margin-top: 1rem;
+  }
+  .banner-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .payment-submit-button{
+    margin:0;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .company-updates h2 {
+      font-size: 1rem;
+    }
+    
+    .company-updates p {
+      font-size: 0.8rem;
+    }
+    
+
+  }
+  
