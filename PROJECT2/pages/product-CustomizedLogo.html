@@ -16,15 +16,20 @@
 
 <body>
   <nav>
-    <a href="home.html">Home</a>
-    <a href="product-CustomizedLogo.html">Customized Logo Service</a>
-    <a href="product-Readytowear.html">ReadyToWear Clothes</a>
-    <!-- <a href="#combinedElements">Combined Elements</a> -->
-    <a href="aboutCompany.html">About the Company</a>
-    <a href=#>Search</a>
-    <a href="shopping-cart.html">ShoppingCart</a>
-    <a href="account.html">Account</a>
-    <a href="wishlist.html">WishList</a>
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="burger-icon">&#9776;</label>
+    <div class="logo">Logo</div>
+    <ul class="menu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
+      <li><a href="product-Readytowear.html">Clothes</a></li>
+      <!-- <a href="#combinedElements">Combined Elements</a> -->
+      <li><a href="aboutCompany.html">About the Company</a></li>
+      <li><a href=#>Search</a></li>
+      <li><a href="shopping-cart.html">Shopping Cart</a></li>
+      <li><a href="account.html">Account</a></li>
+      <li><a href="wishlist.html">Wish List</a></li>
+    </ul>
   </nav>
 
   <section id="ProductListing">
@@ -87,14 +92,29 @@
     </section>
   </section>
 
-  <footer>
+  <footer class="footer">
     <div class="footer-content">
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="aboutCompany.html">About the Company</a></li>
-        <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
-        <li><a href="account.html">Account</a></li>
-      </ul>
+      <div class="container">
+        <div class="column">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutCompany.html">About us</a></li>
+            <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
+            <li><a href="product-Readytowear.html">Clothes</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h4>Export</h4>
+          <ul>
+            <li><a href="index.html">StyleGuide</a></li>
+            <li><a href="https://github.com/Cheryl0707/PROJECT2">Guthub</a></li>
+            <li><a href="index.html#citation">Citations</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 
