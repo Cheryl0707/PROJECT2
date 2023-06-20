@@ -452,4 +452,11 @@ footer:focus {
   .footer .column {
     width: 100%;
   }
+
+
+  /* for all the buttons */
+  .payment-submit-button{
+    width:100%;
+    margin-left:0;
+  }
 }
