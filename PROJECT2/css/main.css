@@ -340,7 +340,7 @@ footer {
   justify-content: space-evenly;
   background-color: rgba(211, 211, 211, 0.7);
   padding: 1rem;
-  font-size:0.8rem;
+  font-size: 0.8rem;
 }
 
 footer:hover,
@@ -388,16 +388,17 @@ footer:focus {
 .footer .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: flex-start;
 }
 
 .footer .column {
-  display:grid;
+  display: grid;
   min-width: 20%;
   margin-bottom: 0.1rem;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem; /* Add the desired gap between the columns */
+  gap: 1rem;
+  /* Add the desired gap between the columns */
 }
 
 
@@ -429,11 +430,11 @@ footer:focus {
     display: block;
   }
 
-  #toggle:checked ~ .burger-icon:before {
+  #toggle:checked~.burger-icon:before {
     content: "\2715";
   }
 
-  #toggle:checked ~ .menu {
+  #toggle:checked~.menu {
     display: block;
     background-color: #333;
     position: absolute;
