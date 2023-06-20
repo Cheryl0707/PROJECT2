@@ -238,7 +238,7 @@ input {
 .payment_form h2 {
   margin-top: 1rem;
   /* padding-bottom: 1rem; */
-  margin-bottom:0;
+  margin-bottom: 0;
 
 }
 
@@ -280,7 +280,8 @@ input {
   margin-top: 3rem;
   /* border:1px solid black; */
 }
-.credit-card-info h2{
+
+.credit-card-info h2 {
   margin-bottom: 0;
 }
 
@@ -331,6 +332,58 @@ input {
   transition: background-color 0.5s ease-out;
 }
 
+/* footer css */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(211, 211, 211, 0.7);
+  padding: 1rem;
+}
+
+footer:hover,
+footer:focus {
+  display: flex;
+  background-color: rgba(240, 240, 240);
+  transition-duration: 0.8s;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* Updated to display vertically */
+  align-items: flex-start;
+  /* Updated to left-align items */
+}
+
+.footer-content li {
+  margin: 10px 0;
+}
+
+.footer-content a {
+  color: grey;
+  text-decoration: none;
+  padding: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: black;
+  text-decoration: underline;
+  padding: 1rem;
+  transition-duration: 0.8s;
+}
+
 @media only screen and (max-width: 600px) {
 
   .products {
@@ -348,7 +401,8 @@ input {
   .cart-summary {
     width: 100%;
   }
-  nav{
+
+  nav {
     flex-wrap: flex-start;
   }
 }
