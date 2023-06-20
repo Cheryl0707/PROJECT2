@@ -340,6 +340,7 @@ footer {
   justify-content: space-evenly;
   background-color: rgba(211, 211, 211, 0.7);
   padding: 1rem;
+  font-size:0.8rem;
 }
 
 footer:hover,
@@ -402,7 +403,32 @@ footer:focus {
     width: 100%;
   }
 
-  nav {
-    flex-wrap: flex-start;
+
+  /* navbar css */
+  .menu {
+    display: none;
+  }
+
+  .burger-icon {
+    display: block;
+  }
+
+  #toggle:checked ~ .burger-icon:before {
+    content: "\2715";
+  }
+
+  #toggle:checked ~ .menu {
+    display: block;
+    background-color: #333;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
   }
 }
