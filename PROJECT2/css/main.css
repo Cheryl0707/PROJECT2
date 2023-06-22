@@ -429,6 +429,15 @@ footer:focus {
   .burger-icon {
     display: block;
   }
+  
+  nav{
+    flex-direction: column;
+    padding:0.4rem;
+  }
+
+  .logo img{
+    max-height:0.4rem;
+  }
 
   #toggle:checked~.burger-icon:before {
     content: "\2715";
@@ -445,9 +454,6 @@ footer:focus {
     text-align: center;
   }
 
-  .menu li {
-    margin: 10px 0;
-  }
 
   .footer .column {
     width: 100%;
@@ -459,4 +465,6 @@ footer:focus {
     width:100%;
     margin-left:0;
   }
+
+
 }

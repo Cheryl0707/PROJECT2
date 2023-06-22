@@ -1,43 +1,40 @@
+/* Add space and lines between <section> elements. */
+section:not([id]) {
+  margin: 2em 0;
+  padding: 0.5em 0;
+  border-top: 0.8px dashed #333;
+}
 
 
 
-  /* Add space and lines between <section> elements. */
-  section:not([id]) {
-    margin: 2em 0;
-    padding: 0.5em 0;
-    border-top: 0.8px dashed #333;
-  }
+/* image as a link effects */
+.image-link {
+  margin: 2rem;
+  max-width: 30%;
+  height: auto;
+}
 
+/* Add a different hover and focus state styling to the image as a link. */
+.image-link:hover,
+.image-link:focus {
+  filter: opacity(100%)
+}
 
+/* Shorten the default width of the <p> element, but ensure it is still responsive when the viewport shrinks. */
 
-  /* image as a link effects */
-  .image-link {
-    margin: 2rem;
-    max-width: 30%;
-    height: auto;
-  }
+p {
+  max-width: 100%;
 
-  /* Add a different hover and focus state styling to the image as a link. */
-  .image-link:hover,
-  .image-link:focus {
-    filter: opacity(100%)
-  }
+}
 
-  /* Shorten the default width of the <p> element, but ensure it is still responsive when the viewport shrinks. */
-
-  p {
-    max-width: 100%;
-
-  }
-
-  /* 
+/* 
   TEXT ELEMENTS -------------------
 */
 
 
 
 
-  /* 
+/* 
   COMBINED ELEMENTS -------------------
 */
 
@@ -45,72 +42,80 @@
 
 
 
-  /* navigation bar:change to light grey and green text with underline when hovering */
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgba(211, 211, 211, 0.7);
-    color:#777b7e;
-    align-items: center;
-    padding-top: 1rem;
-    padding-bottom: 0.8rem;
-    font-size: 0.9rem;
-  }
+/* navigation bar:change to light grey and green text with underline when hovering */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(211, 211, 211, 0.7);
+  color: #777b7e;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
 
-  .logo {
-    padding-left: 1rem;
-    font-size: 0.8rem;
-    font-weight: bold;
-    flex-grow: 1;
-  }
+.logo {
+  padding-left: 1rem;
+  flex-grow: 1;
+}
 
-  .menu {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 1rem;
-    gap:1rem;
-    justify-content: flex-start;
-  }
-
-  nav:hover, nav:focus{
-    display: flex;
-    background-color: rgba(240, 240, 240);
-    transition-duration: 0.8s;
-  }
+.logo img {
+  max-height: 1.5rem;
+  display: flex;
   
-  .menu li {
-    margin-right: 0.2rem;
-  }
-  
-  .menu li a {
-    color: grey;
-    text-decoration: none;
-  }
+}
 
-  .menu li a:hover,  .menu li a:focus {
-    color: black;
-    text-decoration: underline;
-    transition-duration: 1s;
-  }
 
-  .burger-icon {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  #toggle {
-    display: none;
-  }
-  
-  #toggle:checked ~ .menu {
-    display: flex;
-  }
-  
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: flex-start;
+}
 
-  /* nav a {
+nav:hover,
+nav:focus {
+  display: flex;
+  background-color: rgba(240, 240, 240);
+  transition-duration: 0.8s;
+}
+
+.menu li {
+  margin-right: 0.2rem;
+}
+
+.menu li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+  color: black;
+  text-decoration: underline;
+  transition-duration: 1s;
+}
+
+.burger-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked~.menu {
+  display: flex;
+}
+
+
+/* nav a {
     color: grey;
     text-decoration: none;
     padding: 1rem;
@@ -132,152 +137,160 @@
   } */
 
 
-  /* for product listing */
-  .product-listing {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 0.2rem;
-    /* border:1px solid black; */
-  }
+/* for product listing */
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.2rem;
+  /* border:1px solid black; */
+}
 
-  /* image hovering and focus effects */
+/* image hovering and focus effects */
 
-  .product-listing img {
-    max-width: 100%;
-    height: auto;
-    filter: opacity(80%)
-  }
+.product-listing img {
+  max-width: 100%;
+  height: auto;
+  filter: opacity(80%)
+}
 
-  .product-listing img:hover,
-  .product-listing img:focus {
-    filter: opacity(100%)
-  }
+.product-listing img:hover,
+.product-listing img:focus {
+  filter: opacity(100%)
+}
 
-  .product-listing h2 {
-    text-align: center;
-    font-size: 1rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-weight: lighter;
-    color: black;
-    margin-bottom: 0;
-  }
-
-
-
-  /* headings */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: Ysabeau Bold;
-    color: black;
-  }
+.product-listing h2 {
+  text-align: center;
+  font-size: 1rem;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: lighter;
+  color: black;
+  margin-bottom: 0;
+}
 
 
-  /* branding style  */
-  .brand-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 0.5rem;
-  }
 
-  .brand-block {
-    background-color: #eeeeee85;
-    max-width: 22rem;
-    padding: 1.5rem;
-    align-items: center;
-  }
-
-  .brand-block h2,
-  .branding-block h4 {
-    margin-bottom: 1rem;
-  }
-
-  .brand-block-p {
-    margin-bottom: 1.4rem;
-    /* border:1px solid black; */
-    margin-top: 1.1rem;
-    font-size: 1rem;
-
-  }
-
-  .brand-block p {
-    font-size: 0.8rem;
-  }
-
-  .brand-color-green {
-    background-color: #04AA6D;
-    padding: 3rem;
-    width: 20rem;
-    height: auto;
-  }
-
-  .brand-color-greyBlock p {
-    color: black;
-  }
-
-  .brand-color-green p,
-  .brand-color-black p,
-  .brand-color-greyFont p,
-  .brand-color-greyBlock p {
-    margin: 0;
-    font-size: 0.6rem;
-
-  }
-
-  .brand-color-black {
-    background-color: black;
-    padding: 3rem;
-    width: 20rem;
-    height: auto;
-  }
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Ysabeau Bold;
+  color: black;
+}
 
 
-  .brand-color-greyFont {
-    background-color: #777b7e;
-    padding: 3rem;
-    width: 20rem;
-    height: auto;
-  }
+/* branding style  */
+.brand-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
 
-  .brand-color-black p,
-  .brand-color-black h2,
-  .brand-color-greyFont p,
-  .brand-color-greyFont h2,  .brand-color-green p,.brand-color-green h2 {
-    color: white;
-  }
+.brand-block {
+  background-color: #eeeeee85;
+  max-width: 22rem;
+  padding: 1.5rem;
+  align-items: center;
+}
 
-  .brand-color-greyBlock {
-    background-color: #EEEEEE85;
-    padding: 3rem;
-    width: 20rem;
-    height: auto;
+.brand-block h2,
+.branding-block h4 {
+  margin-bottom: 1rem;
+}
 
-  }
+.brand-block-p {
+  margin-bottom: 1.4rem;
+  /* border:1px solid black; */
+  margin-top: 1.1rem;
+  font-size: 1rem;
 
-  .brand-img {
-    max-width: 100%;
-    height: auto;
-    filter: grayscale(90%)
-  }
+}
 
-  .image-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 0.5rem;
-  }
+.brand-block p {
+  font-size: 0.8rem;
+}
 
-  .brandinfo p{
-    font-size: 0.9rem;
-    max-width:90%;
-    margin-top: 0;
+.brand-color-green {
+  background-color: #04AA6D;
+  padding: 3rem;
+  width: 20rem;
+  height: auto;
+}
 
-  }
-  .brandinfo h4{
-    margin-bottom: 0.4rem;
-  }
+.brand-color-greyBlock p {
+  color: black;
+}
+
+.brand-color-green p,
+.brand-color-black p,
+.brand-color-greyFont p,
+.brand-color-greyBlock p {
+  margin: 0;
+  font-size: 0.6rem;
+
+}
+
+.brand-color-black {
+  background-color: black;
+  padding: 3rem;
+  width: 20rem;
+  height: auto;
+}
+
+
+.brand-color-greyFont {
+  background-color: #777b7e;
+  padding: 3rem;
+  width: 20rem;
+  height: auto;
+}
+
+.brand-color-black p,
+.brand-color-black h2,
+.brand-color-greyFont p,
+.brand-color-greyFont h2,
+.brand-color-green p,
+.brand-color-green h2 {
+  color: white;
+}
+
+.brand-color-greyBlock {
+  background-color: #EEEEEE85;
+  padding: 3rem;
+  width: 20rem;
+  height: auto;
+
+}
+
+.brand-img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(90%)
+}
+
+.image-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.brandinfo p {
+  font-size: 0.9rem;
+  max-width: 90%;
+  margin-top: 0;
+
+}
+
+.brandinfo h4 {
+  margin-bottom: 0.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+
