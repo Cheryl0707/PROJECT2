@@ -10,39 +10,25 @@
 
   text-align:center;
 
-    position:relative; 
-
-    /* background-image:url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:70vh;
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    color:white;
-
-    text-align:center;
-
-    position:relative; */
+  position:relative; 
     
   }
 
   .company-updates h2{
-    font-size:6rem;
+    font-size: 1rem;
+    margin-bottom: 10px;
   }
 
   .company-updates span{
     display:block;
   }
   
-  .hero span:nth-of-type(1){
+  .company-updates span:nth-of-type(1){
     font-size:1.5rem;
     font-weight:normal;
 }
 
-  .hero span:nth-of-type(2){
+  .company-updates span:nth-of-type(2){
     font-size:5.5rem;
     
 }
@@ -52,25 +38,23 @@
     margin: 0 auto;
   }
   
-  .company-updates h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
   .company-updates p {
     font-size: 0.8rem;
     margin-bottom: 1rem;
     margin-top: 0;
   }
+
   .company-updates a {
     margin-top: 1rem;
   }
-  .banner-image {
+  /* .banner-image {
     max-width: 100%;
     height: auto;
-  }
+  } */
+
   .payment-submit-button{
-    margin:0;
+    margin-top:4rem;
+
   }
 
   
