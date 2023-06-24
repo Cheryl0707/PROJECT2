@@ -9,7 +9,7 @@
 
 /* Hide the images by default */
 .mySlides {
-  display: inline;
+  display: flex;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
