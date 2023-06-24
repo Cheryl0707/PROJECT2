@@ -431,6 +431,7 @@ footer:focus {
   }
   
   nav{
+    
     flex-direction: column;
     padding:0.4rem;
   }
