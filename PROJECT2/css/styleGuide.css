@@ -2,7 +2,7 @@
 section:not([id]) {
   margin: 2em 0;
   padding: 0.5em 0;
-  border-top: 0.8px dashed #333;
+  /* border-top: 0.8px dashed #333; */
 }
 
 
@@ -53,6 +53,7 @@ nav {
   padding-top: 1rem;
   padding-bottom: 0.8rem;
   font-size: 0.9rem;
+  position: sticky;
 }
 
 .logo {
