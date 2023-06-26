@@ -1,12 +1,18 @@
 body {
-  margin: 1rem;
+  margin: 0;
+  padding: 0;
+  /* margin: 1rem; */
   font-family: Roobert Regular;
   color: #5f5f5f;
-  padding: 2rem;
+  /* padding: 2rem; */
   letter-spacing: 0.04rem;
 
 }
 
+/* *:not(nav) {
+  margin: 1rem;
+  padding: 1rem;
+} */
 /* increasing line spacing */
 p {
   line-height: 1.4;
@@ -341,6 +347,7 @@ footer {
   background-color: rgba(211, 211, 211, 0.7);
   padding: 1rem;
   font-size: 0.8rem;
+  margin-top: 6rem;
 }
 
 footer:hover,
@@ -429,15 +436,15 @@ footer:focus {
   .burger-icon {
     display: block;
   }
-  
-  nav{
-    
+
+  nav {
+
     flex-direction: column;
-    padding:0.4rem;
+    padding: 0.4rem;
   }
 
-  .logo img{
-    max-height:0.4rem;
+  .logo img {
+    max-height: 0.4rem;
   }
 
   #toggle:checked~.burger-icon:before {
@@ -462,9 +469,9 @@ footer:focus {
 
 
   /* for all the buttons */
-  .payment-submit-button{
-    width:100%;
-    margin-left:0;
+  .payment-submit-button {
+    width: 100%;
+    margin-left: 0;
   }
 
 
