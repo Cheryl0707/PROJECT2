@@ -5,6 +5,12 @@ section:not([id]) {
   /* border-top: 0.8px dashed #333; */
 }
 
+section {
+  margin: 0;
+  padding: 0;
+  /* border-top: 0.8px dashed #333; */
+}
+
 
 
 /* image as a link effects */

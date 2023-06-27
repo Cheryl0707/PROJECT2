@@ -1,15 +1,21 @@
 /* this is for both ready to wear clothes page and customized logo page */
+/* *{
+    border: black 1px solid;
+} */
 
 
 .container1 {
     position: relative;
-    height: 65vh;
+    height: 60vh;
     background-image: url("../images/black-t.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
   }
   
+  /* @media screen {
+    
+  } */
   /* Hide the images by default */
   .mySlides {
     display: flex;
@@ -71,17 +77,20 @@
   
 
   /* for customize logo specific page */
-.portfolio{
-    display: flex;
-    justify-content: center;
-}
+/* #ProductListing{
 
-.portfolio-row{
-    width: 50%;
-}
+} */
 
-.product-container{
+.customize-info{
     
-    float:left;
-    width:30%;
+    margin: 3rem;
+    /* align-items: center; */
+   }
+.portfolio{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    margin: 3rem;
+    gap: 1rem;
+    justify-content: space-between;
 }
+
