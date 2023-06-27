@@ -51,7 +51,9 @@ input[type="text"]:focus {
   border-color: #04AA6D;
   box-shadow: 0 0 5px #04AA6D;
 }
-
+nav img{
+  width:20px;
+}
 /* product container  */
 .products {
   display: flex;
@@ -435,6 +437,7 @@ footer:focus {
     display:flex;
     flex-direction: column;
     padding:0.4rem;
+
   }
 
   .logo img{
