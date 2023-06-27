@@ -413,8 +413,13 @@ footer:focus {
 
   .products {
     flex-direction: column;
+    /* margin-top: 2rem; */
   }
 
+  /* .product-container{
+    flex-direction: column;
+    margin-top: 2rem;
+  } */
   .shopping-cart {
     flex-direction: column;
   }

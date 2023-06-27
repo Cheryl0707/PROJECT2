@@ -226,6 +226,14 @@ section {
   /* margin-top: -70px; */
   /* Add margin to push content below the video */
 }
+.New-Arrivals{
+  height: 100%;
+  margin-top: 20px;
+}
+.Trending-products{
+  height: 100%;
+  margin-top: 20px;
+}
 
 main {
   margin-left: 1rem;
