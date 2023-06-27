@@ -76,3 +76,12 @@
     justify-content: center;
 }
 
+.portfolio-row{
+    width: 50%;
+}
+
+.product-container{
+    
+    float:left;
+    width:30%;
+}
