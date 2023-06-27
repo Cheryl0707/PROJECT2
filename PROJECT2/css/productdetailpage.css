@@ -1,5 +1,6 @@
 /* this is for both ready to wear clothes page and customized logo page */
-/* .product-container */
+
+
 .container1 {
     position: relative;
     height: 65vh;
@@ -68,3 +69,10 @@
     top: 0;
   }
   
+
+  /* for customize logo specific page */
+.portfolio{
+    display: flex;
+    justify-content: center;
+}
+
