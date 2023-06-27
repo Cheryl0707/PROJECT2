@@ -385,7 +385,7 @@ footer:focus {
   transition: color 0.3s ease;
 }
 
-.footer-content a:hover {
+.footer-content a:hover, .footer-content a:focus{
   color: black;
   text-decoration: underline;
   padding: 1rem;
