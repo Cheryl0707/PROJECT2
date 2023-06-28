@@ -7,16 +7,13 @@
 .container1 {
     position: relative;
     height: 65vh;
-    margin-bottom: 60px;
+    margin-bottom: 4rem;
     /* background-image: url("../images/black-t.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center; */
   }
-  
-  /* @media screen {
-    
-  } */
+
   /* Hide the images by default */
   .mySlides {
     display: flex;
@@ -88,11 +85,17 @@
     margin: 3rem;
     /* align-items: center; */
    }
-.portfolio{
+
+
+#ProductListing h2{
+  margin-left: 3rem;
+}
+.showroom{
     display: grid;
+    margin-bottom: 4rem;
     grid-template-columns: 32% 32% 32%;
     margin: 3rem;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: space-between;
 }
 
