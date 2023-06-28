@@ -53,12 +53,31 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: rgba(211, 211, 211, 0.7);
+  /* background-color: rgba(211, 211, 211, 0.7); */
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
   color: #777b7e;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 0.8rem;
   font-size: 0.9rem;
+
+  /* background-color: transparent;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100; */
 }
 
 .header {
@@ -93,7 +112,7 @@ nav {
 nav:hover,
 nav:focus {
   display: flex;
-  background-color: rgba(240, 240, 240);
+  background-color: #04AA6D;
   transition-duration: 0.8s;
 }
 
