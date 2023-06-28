@@ -64,7 +64,7 @@
 
 
 .navbar {
-  background-color: transparent;
+  background-color: #ffffffb2;
   transition: background-color 0.3s ease;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -80,9 +80,9 @@
   text-decoration: none;
 }
 
-.navbar.scrolled {
+/* .navbar.scrolled {
   background-color: #333;
-}
+} */
 
 .banner {
   position: relative;
