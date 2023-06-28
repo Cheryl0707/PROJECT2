@@ -27,116 +27,118 @@
       <li><a href="cart.html">Shopping Cart</a></li>
       <li><a href="account.html">Account</a></li>
       <li><a href="wishlist.html">Wish List</a></li> -->
-      <li><a href=#><img src="../images/search.png" alt="search-icon"width="20px"></a></li>
+      <li><a href=#><img src="../images/search.png" alt="search-icon" width="20px"></a></li>
       <li><a href="cart.html"><img src="../images/shopping-cart.png" alt="shopping-cart-icon" width="20px"></a></li>
-      <li><a href="account.html"><img src="../images/user.png" alt="user-aacount-icon"width="20px"></a></li>
-      <li><a href="wishlist.html"><img src="../images/shopping-bag.png" alt="wishlist-icon"width="20px"></a></li>
+      <li><a href="account.html"><img src="../images/user.png" alt="user-aacount-icon" width="20px"></a></li>
+      <li><a href="wishlist.html"><img src="../images/shopping-bag.png" alt="wishlist-icon" width="20px"></a></li>
     </ul>
   </nav>
 
-   <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-      
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-      
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
       }
-      
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("demo");
-        let captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
 
-      </script>
+  </script>
 
-<section id="ProductListing">
-    <h2>Product showroom</h2>
+  <main>
+    <section id="ProductListing">
+      <h2>Product showroom</h2>
 
-  <div class="container1">
-    <div class="mySlides">
-        <img src="../images/ready-to-wear-cover1.png" alt="display-feature-Image 1">
-    </div>
-
-    <div class="mySlides">
-        <img src="../images/ready-to-wear-cover2.png" alt="display-feature-Image 2">
-    </div>
-
-    <div class="mySlides">
-        <img src="../images/ready-to-wear-cover3.png" alt="display-feature-Image 3">
-    </div> 
-
-      <!-- Next and previous buttons  -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <!-- Image text -->
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-  </div>
-</section>
-
-<section id="ProductListing">
-  <h2>Product Listing</h2>
-
-    <div class="products">
-      <div class="product-container">
-        <div class="product-container-image">
-          <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
+      <div class="container1">
+        <div class="mySlides">
+          <img src="../images/ready-to-wear-cover1.png" alt="display-feature-Image 1">
         </div>
-        <div class="product-container-info">
-          <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
-          <p class="product-container-price">CAD 40.00</p>
-          <p>More Colors Available</p>
-          <p class="product_description">Black hoodie with logos on it.</p>
+
+        <div class="mySlides">
+          <img src="../images/ready-to-wear-cover2.png" alt="display-feature-Image 2">
+        </div>
+
+        <div class="mySlides">
+          <img src="../images/ready-to-wear-cover3.png" alt="display-feature-Image 3">
+        </div>
+
+        <!-- Next and previous buttons  -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
         </div>
       </div>
+    </section>
 
-      <div class="product-container">
-        <div class="product-container-image">
-          <a href="SingleCloth.html"><img src="../images/hoodie-2.png" alt="image"></a>
+    <section id="ProductListing">
+      <h2>Product Listing</h2>
+
+      <div class="products">
+        <div class="product-container">
+          <div class="product-container-image">
+            <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
+          </div>
+          <div class="product-container-info">
+            <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
+            <p class="product-container-price">CAD 40.00</p>
+            <p>More Colors Available</p>
+            <p class="product_description">Black hoodie with logos on it.</p>
+          </div>
         </div>
-        <div class="product-container-info">
-          <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
-          <p class="product-container-price">CAD 40.00</p>
-          <p>More Colors Available</p>
-          <p class="product_description">Black hoodie with logos on it.</p>
+
+        <div class="product-container">
+          <div class="product-container-image">
+            <a href="SingleCloth.html"><img src="../images/hoodie-2.png" alt="image"></a>
+          </div>
+          <div class="product-container-info">
+            <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
+            <p class="product-container-price">CAD 40.00</p>
+            <p>More Colors Available</p>
+            <p class="product_description">Black hoodie with logos on it.</p>
+          </div>
         </div>
+
+        <div class="product-container">
+          <div class="product-container-image">
+            <a href="SingleCloth.html"><img src="../images/hoodie-3.png" alt="image"></a>
+          </div>
+          <div class="product-container-info">
+            <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
+            <p class="product-container-price">CAD 40.00</p>
+            <p>More Colors Available</p>
+            <p class="product_description">Black hoodie with logos on it.</p>
+          </div>
+        </div>
+
+
       </div>
-
-      <div class="product-container">
-        <div class="product-container-image">
-          <a href="SingleCloth.html"><img src="../images/hoodie-3.png" alt="image"></a>
-        </div>
-        <div class="product-container-info">
-          <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
-          <p class="product-container-price">CAD 40.00</p>
-          <p>More Colors Available</p>
-          <p class="product_description">Black hoodie with logos on it.</p>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-  </section>
+    </section>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="footer-content">

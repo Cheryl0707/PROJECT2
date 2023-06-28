@@ -42,3 +42,32 @@ main {
     border: 0.5px solid #ffffffb7;
     background-color: #ffffff71;
 }
+
+/* .search-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-box button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search:hover .search-box {
+    display: block;
+  } */
