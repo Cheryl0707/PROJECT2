@@ -68,7 +68,7 @@ nav {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 0.8rem;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 
   /* background-color: transparent;
   transition: background-color 0.3s ease;
@@ -112,7 +112,12 @@ nav {
 nav:hover,
 nav:focus {
   display: flex;
-  background-color: #04AA6D;
+  background-color: #04aa6d56;
+  transition-duration: 0.8s;
+}
+nav:hover .menu li a,
+nav:focus .menu li a{
+  color: #ffffff;
   transition-duration: 0.8s;
 }
 
@@ -127,9 +132,9 @@ nav:focus {
 
 .menu li a:hover,
 .menu li a:focus {
-  color: black;
+  color: #ffffff;
   text-decoration: underline;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 .burger-icon {

@@ -408,6 +408,11 @@ footer:focus {
   /* Add the desired gap between the columns */
 }
 
+main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 
 @media only screen and (max-width: 600px) {
 
