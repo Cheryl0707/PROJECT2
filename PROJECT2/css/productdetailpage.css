@@ -76,9 +76,9 @@
 
 
 /* for customize logo specific page */
-/* #ProductListing{
-
-} */
+#ProductListing{
+margin-top: 8rem;
+}
 
 .customize-info{
   
@@ -90,6 +90,7 @@
 #ProductListing h2{
 margin-left: 3rem;
 }
+
 .showroom{
   display: grid;
   margin-bottom: 4rem;
@@ -99,3 +100,80 @@ margin-left: 3rem;
   justify-content: space-between;
 }
 
+
+#logo-zigzag1{
+  margin:5rem;
+
+}
+#logo-zigzag2{
+  margin:5rem;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+}
+.zigzag-section {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  gap: 4rem;
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0;
+ 
+}
+
+.zigzag-image img,
+.zigzag-image2 img {
+  width: 100%;
+  display: block;
+  filter: grayscale(20);
+}
+
+.zigzag-image {
+  width: 55%;
+  order: 1;
+  /* border: 1px solid red; */
+}
+
+.zigzag-text {
+  width: 45%;
+  order: 2;
+  /* border: 5px solid yellow; */
+  margin-right: 1.5rem;
+}
+
+
+.zigzag-image2 {
+  width: 55%;
+  order: 2;
+  flex-shrink: 5;
+  /* border: 5px solid blue; */
+}
+
+
+.zigzag-text2 {
+  width: 45%;
+  order: 1;
+  flex-shrink: 1;
+  /* border: 5px solid pink; */
+  margin-left: 1.5rem;
+}
+
+.zigzag-text2 h2,
+.zigzag-text h2 {
+  font-size: 3rem;
+  font-family: Ysabeau Bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  letter-spacing: 0.03rem;
+}
+
+.zigzag-text2 p,
+.zigzag-text p {
+  font-size: 0.8rem;
+}
+
+.zigzag-image,
+.zigzag-image2 {
+  margin: 0;
+}
