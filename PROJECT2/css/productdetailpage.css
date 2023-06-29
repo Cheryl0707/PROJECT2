@@ -5,97 +5,97 @@
 
 
 .container1 {
-    position: relative;
-    height: 65vh;
-    margin-bottom: 4rem;
-    /* background-image: url("../images/black-t.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center; */
-  }
+  position: relative;
+  height: 65vh;
+  margin-bottom: 4rem;
+  /* background-image: url("../images/black-t.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; */
+}
 
-  /* Hide the images by default */
-  .mySlides {
-    display: flex;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* margin-bottom: 60px; */
-  }
+/* Hide the images by default */
+.mySlides {
+  display: flex;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* margin-bottom: 60px; */
+}
 
-  .mySlides img{
-    width: 100%;
- 
-  }
+.mySlides img{
+  width: 100%;
+
+}
 
 
 
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    /* background-color: rgba(251, 251, 251, 0.8); */
-    background-color: #04AA6D;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
+.cursor {
+  cursor: pointer;
+}
 
-  /* for customize logo specific page */
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  /* background-color: rgba(251, 251, 251, 0.8); */
+  background-color: #04AA6D;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* for customize logo specific page */
 /* #ProductListing{
 
 } */
 
 .customize-info{
-    
-    margin: 3rem;
-    /* align-items: center; */
-   }
+  
+  margin: 3rem;
+  /* align-items: center; */
+ }
 
 
 #ProductListing h2{
-  margin-left: 3rem;
+margin-left: 3rem;
 }
 .showroom{
-    display: grid;
-    margin-bottom: 4rem;
-    grid-template-columns: 32% 32% 32%;
-    margin: 3rem;
-    gap: 2rem;
-    justify-content: space-between;
+  display: grid;
+  margin-bottom: 4rem;
+  grid-template-columns: 32% 32% 32%;
+  margin: 3rem;
+  gap: 2rem;
+  justify-content: space-between;
 }
 

@@ -68,7 +68,7 @@ nav {
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 
   /* background-color: transparent;
   transition: background-color 0.3s ease;
@@ -108,6 +108,21 @@ nav {
   gap: 1rem;
   justify-content: flex-start;
 }
+.nav-regular{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-icon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu ul{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
 
 nav:hover,
 nav:focus {
@@ -141,12 +156,14 @@ nav:focus .menu li a{
   transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+/* ask TA */
+
 .menu li a:hover,
 .menu li a:focus {
   color: #04AA6D;
   /* text-decoration: underline; */
   transition-duration: 0.5s;
-  transform: scale(1.2);
+  transform: scale(1.05); 
 }
 
 
@@ -339,5 +356,3 @@ h6 {
 .brandinfo h4 {
   margin-bottom: 0.4rem;
 }
-
-@media only screen and (max-width: 600px) {}
