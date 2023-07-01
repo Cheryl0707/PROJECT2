@@ -34,185 +34,193 @@
   </nav>
 </div>
 
-  <script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
     }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
     }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+  }
 
-    function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("demo");
-      let captionText = document.getElementById("caption");
-      if (n > slides.length) { slideIndex = 1 }
-      if (n < 1) { slideIndex = slides.length }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-      captionText.innerHTML = dots[slideIndex - 1].alt;
-    }
+</script>
 
-  </script>
+<main>
+  <section id="ProductListing">
+    <h2>Product showroom</h2>
 
-  <main>
-    <section id="ProductListing">
-      <h2>Product showroom</h2>
-
-      <div class="container1">
-        <div class="mySlides">
-          <img src="../images/ready-to-wear-cover1.png" alt="display-feature-Image 1">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/ready-to-wear-cover2.png" alt="display-feature-Image 2">
-        </div>
-
-        <div class="mySlides">
-          <img src="../images/ready-to-wear-cover3.png" alt="display-feature-Image 3">
-        </div>
-
-        <!-- Next and previous buttons  -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
+    <div class="container1">
+      <div class="mySlides">
+        <img src="../images/ready-to-wear-cover1.png" alt="display-feature-Image 1">
       </div>
-    </section>
 
-    <section id="ProductListing">
-      <h2>Product Listing</h2>
-
-      <div class="products">
-        <div class="product-container">
-          <div class="product-container-image">
-            <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
-          </div>
-          <div class="product-container-info">
-            <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
-            <!-- <p class="product-container-price">CAD 29.99</p> -->
-            <p class="product_description">Black hoodie with logos on it.</p>
-            <!-- <div class="payment-submit-buttons"> -->
-            <button class="payment-submit-button">ADD TO WISHLIST</button>
-            <button class="payment-submit-button">ADD TO CART</button>
-            <!-- </div> -->
-          </div>
-        </div>
-
-        <div class="product-container">
-          <div class="product-container-image">
-            <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
-          </div>
-          <div class="product-container-info">
-            <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
-            <!-- <p class="product-container-price">CAD 29.99</p> -->
-            <p class="product_description">Black hoodie with logos on it.</p>
-            <!-- <div class="payment-submit-buttons"> -->
-            <button class="payment-submit-button">ADD TO WISHLIST</button>
-            <button class="payment-submit-button">ADD TO CART</button>
-            <!-- </div> -->
-          </div>
-        </div>
-
-        <div class="product-container">
-          <div class="product-container-image">
-            <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
-          </div>
-          <div class="product-container-info">
-            <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
-            <!-- <p class="product-container-price">CAD 29.99</p> -->
-            <p class="product_description">Black hoodie with logos on it.</p>
-            <!-- <div class="payment-submit-buttons"> -->
-            <button class="payment-submit-button">ADD TO WISHLIST</button>
-            <button class="payment-submit-button">ADD TO CART</button>
-            <!-- </div> -->
-          </div>
-        </div>
-
-        <div class="product-container">
-          <div class="product-container-image">
-            <a href="#">
-              <img src="../images/greyv-logo-1.png" alt="product picture">
-            </a>
-          </div>
-          <div class="product-container-info">
-            <h2><a href="#" class="intextLink">Logo-T - Stylized</a></h2>
-            <p class="product-container-price">CAD 66.66</p>
-            <p class="product_description">You can customize your logo.
-          </div>
-        </div>
-
-        <div class="product-container">
-          <div class="product-container-image">
-            <a href="#">
-              <img src="../images/greyv-logo-2.png" alt="product picture">
-            </a>
-          </div>
-          <div class="product-container-info">
-            <h2><a href="#" class="intextLink">GreyV Logo - Black</a></h2>
-            <p class="product-container-price">CAD 66.66</p>
-
-          </div>
-        </div>
-
-        <div class="product-container">
-          <div class="product-container-image">
-            <a href="#">
-              <img src="../images/greyv-t-3.png" alt="product picture">
-            </a>
-          </div>
-          <div class="product-container-info">
-            <h2><a href="#" class="intextLink">GreyV Logo - Stylized</a></h2>
-            <p class="product-container-price">CAD 66.66</p>
-
-          </div>
-        </div>
-
-
+      <div class="mySlides">
+        <img src="../images/ready-to-wear-cover2.png" alt="display-feature-Image 2">
       </div>
-    </section>
-    </section>
-  </main>
 
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="container">
-        <div class="column">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="aboutCompany.html">About us</a></li>
-            <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
-            <li><a href="product-Readytowear.html">Clothes</a></li>
-            <li><a href="account.html">Account</a></li>
-          </ul>
-        </div>
+      <div class="mySlides">
+        <img src="../images/ready-to-wear-cover3.png" alt="display-feature-Image 3">
+      </div>
 
-        <div class="column">
-          <h4>Export</h4>
-          <ul>
-            <li><a href="../index.html">StyleGuide</a></li>
-            <li><a href="https://github.com/Cheryl0707/PROJECT2">Guthub</a></li>
-            <li><a href="../PROJECT2/index.html#citations">Citations</a></li>
-          </ul>
-        </div>
+      <!-- Next and previous buttons  -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
       </div>
     </div>
-  </footer>
+  </section>
+
+  <section id="ProductListing">
+    <h2>Product Listing</h2>
+
+    <div class="products">
+      <div class="product-container">
+        <div class="product-container-image">
+          <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
+        </div>
+        <div class="product-container-info">
+          <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
+          <!-- <p class="product-container-price">CAD 29.99</p> -->
+          <p class="product_description">Black hoodie with logos on it.</p>
+          <!-- <div class="payment-submit-buttons"> -->
+          <button class="payment-submit-button">ADD TO WISHLIST</button>
+          <button class="payment-submit-button">ADD TO CART</button>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <div class="product-container">
+        <div class="product-container-image">
+          <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
+        </div>
+        <div class="product-container-info">
+          <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
+          <!-- <p class="product-container-price">CAD 29.99</p> -->
+          <p class="product_description">Black hoodie with logos on it.</p>
+          <!-- <div class="payment-submit-buttons"> -->
+          <button class="payment-submit-button">ADD TO WISHLIST</button>
+          <button class="payment-submit-button">ADD TO CART</button>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <div class="product-container">
+        <div class="product-container-image">
+          <a href="SingleCloth.html"><img src="../images/hoodie-1.png" alt="image"></a>
+        </div>
+        <div class="product-container-info">
+          <h2><a href="SingleCloth.html" class="intextLink">Black Hoodie - White</a></h2>
+          <!-- <p class="product-container-price">CAD 29.99</p> -->
+          <p class="product_description">Black hoodie with logos on it.</p>
+          <!-- <div class="payment-submit-buttons"> -->
+          <button class="payment-submit-button">ADD TO WISHLIST</button>
+          <button class="payment-submit-button">ADD TO CART</button>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <div class="product-container">
+        <div class="product-container-image">
+          <a href="#">
+            <img src="../images/greyv-t-1.png" alt="product picture">
+          </a>
+        </div>
+        <div class="product-container-info">
+
+          <h2><a href="#" class="intextLink">Logo-T - Center</a></h2>
+          <p class="product-container-price">CAD 66.66</p>
+          <p class="product_description">You can customize your logo.</p>
+          <button class="payment-submit-button">ADD TO WISHLIST</button>
+          <button class="payment-submit-button">ADD TO CART</button>
+
+        </div>
+      </div>
+
+      <div class="product-container">
+        <div class="product-container-image">
+          <a href="#">
+            <img src="../images/greyv-t-2.png" alt="product picture">
+          </a>
+        </div>
+        <div class="product-container-info">
+          <h2><a href="#" class="intextLink">Logo-T - Right</a></h2>
+          <p class="product-container-price">CAD 66.66</p>
+          <p class="product_description">You can customize your logo.</p>
+          <button class="payment-submit-button">ADD TO WISHLIST</button>
+          <button class="payment-submit-button">ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="product-container">
+        <div class="product-container-image">
+          <a href="#">
+            <img src="../images/greyv-t-3.png" alt="product picture">
+          </a>
+        </div>
+        <div class="product-container-info">
+          <h2><a href="#" class="intextLink">Logo-T - Stylized</a></h2>
+          <p class="product-container-price">CAD 66.66</p>
+          <p class="product_description">You can customize your logo.</p>
+          <button class="payment-submit-button">ADD TO WISHLIST</button>
+          <button class="payment-submit-button">ADD TO CART</button>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="container">
+      <div class="column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="aboutCompany.html">About us</a></li>
+          <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
+          <li><a href="product-Readytowear.html">Clothes</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h4>Export</h4>
+        <ul>
+          <li><a href="../index.html">StyleGuide</a></li>
+          <li><a href="https://github.com/Cheryl0707/PROJECT2">Guthub</a></li>
+          <li><a href="../PROJECT2/index.html#citations">Citations</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 
