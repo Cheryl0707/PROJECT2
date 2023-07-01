@@ -3,15 +3,15 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <!-- Set the meta viewport tag Links to an external site. to ensure your page scales appropriately on mobile devices. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melody & Cheryl Project 2 </title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ysabeau">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="../css/main.css" rel="stylesheet">
-    <link href="../css/styleGuide.css" rel="stylesheet">
-    <link href="../css/homepage.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <!-- Set the meta viewport tag Links to an external site. to ensure your page scales appropriately on mobile devices. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melody & Cheryl Project 2 </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ysabeau">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/styleGuide.css" rel="stylesheet">
+  <link href="../css/cart.css" rel="stylesheet">
 
 </head>
 
@@ -37,85 +37,149 @@
     </nav>
   </div>
 
-    <section id="Shopping-cart">
-        <h1 class="combine-element">Shopping Cart</h1>
-        <!-- <h2>Shopping Cart</h2> -->
-        <div class="shopping-cart">
-            <div class="cart-bag">
-                <div class="cart-item">
-                    <div class="cart-image">
-                        <img src="../images/product_image1.png" alt="mintc-logo-white" />
-                    </div>
-                    <div class="cart-info">
-                        <div>
-                            <h3>MintC Logo</h3>
-                            <div>Color: White</div>
-                        </div>
-
-                        <div>
-                            <span>CAD 66.66</span>
-                            <span> &#x2715; 1 </span>
-                            <span>CAD 66.66</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cart-item">
-                    <div class="cart-image">
-                        <img src="../images/product_image2.png" alt="mintc-logo-2" />
-                    </div>
-                    <div class="cart-info">
-                        <div>
-                            <h3>MintC Logo</h3>
-                            <div>Color: Black</div>
-                        </div>
-
-                        <div>
-                            <span>CAD 66.66</span>
-                            <span> &#x2715; 1 </span>
-                            <span>CAD 66.66</span>
-                        </div>
-                    </div>
-                </div>
+  <main>
+    <section id="shopping-cart">
+      <h1>Shopping Cart</h1>
+      <div class="shopping-cart">
+        <div class="cart-bag">
+          <div class="cart-item">
+            <div class="cart-image">
+              <img src="../images/product_image1.png" alt="mintc-logo-white" />
             </div>
+            <div class="cart-info">
+              <div>
+                <h3>MintC Logo</h3>
+                <div>Color: White</div>
+              </div>
 
-            <div class="cart-summary">
-                <h3>ORDER SUMMARY</h3>
-                <div><span>Subtotal:</span><span>$133.32</span></div>
-                <div><span>Shipping:</span><span>$6.66</span></div>
-                <div><span>Tax:</span><span>12%</span></div>
-                <div><span>TOTAL:</span><span>$156.77</span></div>
+              <div>
+                <span>CAD 66.66</span>
+                <span> &#x2715; 1 </span>
+                <span>CAD 66.66</span>
+              </div>
             </div>
+          </div>
+
+          <div class="cart-item">
+            <div class="cart-image">
+              <img src="../images/product_image2.png" alt="mintc-logo-2" />
+            </div>
+            <div class="cart-info">
+              <div>
+                <h3>MintC Logo</h3>
+                <div>Color: Black</div>
+              </div>
+
+              <div>
+                <span>CAD 66.66</span>
+                <span> &#x2715; 1 </span>
+                <span>CAD 66.66</span>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
 
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="container">
-          <div class="column">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="home.html">Home</a></li>
-              <li><a href="aboutCompany.html">About us</a></li>
-              <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
-              <li><a href="product-Readytowear.html">Clothes</a></li>
-              <li><a href="account.html">Account</a></li>
-            </ul>
-          </div>
-  
-          <div class="column">
-            <h4>Export</h4>
-            <ul>
-              <li><a href="../index.html">StyleGuide</a></li>
-              <li><a href="https://github.com/Cheryl0707/PROJECT2">Guthub</a></li>
-              <li><a href="../PROJECT2/index.html#citations">Citations</a></li>
-            </ul>
-          </div>
+        <div class="cart-summary">
+          <h3>ORDER SUMMARY</h3>
+          <div><span>Subtotal:</span><span>$133.32</span></div>
+          <div><span>Shipping:</span><span>$6.66</span></div>
+          <div><span>Tax:</span><span>12%</span></div>
+          <div><span>TOTAL:</span><span>$156.77</span></div>
         </div>
       </div>
-    </footer>
     </section>
+
+
     <!-- end of shopping cart-->
+    <!-- 
+  check out and shipping information  -->
+    <div class="payment_form">
+      <div class="address">
+        <h2>Shipping Information</h2>
+
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="Please input your First name">
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" placeholder="Please input your Last name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Please input your Email. eg.sfu123@gmail.com">
+
+        <label for="street">Street Name</label>
+        <input type="text" id="street" placeholder="Please input your Address. eg. 5771 - 3rd street, Richmond, BC">
+
+        <label for="postal-code">Postal Code</label>
+        <input type="text" id="postal-code" placeholder="XXX-XXX">
+
+        <label for="city">City</label>
+        <input type="text" id="city" placeholder="Please enter your city">
+
+        <label for="province">Province</label>
+        <input type="text" id="province" placeholder="Please enter your province">
+      </div>
+
+      <div class="credit-card-info">
+        <h2>Payment Card</h2>
+        <div class="radio-button-for-card">
+          <input type="radio" id="Visa" name="Credit card">
+          <label for="Visa">Visa</label>
+          <input type="radio" id="Master" name="Credit card">
+          <label for="Master">Master</label>
+        </div>
+
+        <div>
+          <label for="CardNum">Card Number</label>
+          <input type="text" id="CardNum" placeholder="6666-6666-6666-6666">
+
+          <label for="Name-on-card">Name on card</label>
+          <input type="text" id="Name-on-card" placeholder="Cheryl Liu">
+
+          <label for="ExpiredDate">Expired Date</label>
+          <input type="text" id="ExpiredDate" placeholder="12/30/2099">
+
+          <label for="CVV">CVV</label>
+          <input type="text" id="CVV" placeholder="999">
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="payment-submit-buttons">
+      <input class="payment-submit-button" type="submit" value="SUBMIT">
+      <input class="payment-submit-button" type="submit" value="CANCEL" />
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="container">
+        <div class="column">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutCompany.html">About us</a></li>
+            <li><a href="product-CustomizedLogo.html">Logo Service</a></li>
+            <li><a href="product-Readytowear.html">Clothes</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h4>Export</h4>
+          <ul>
+            <li><a href="../index.html">StyleGuide</a></li>
+            <li><a href="https://github.com/Cheryl0707/PROJECT2">Guthub</a></li>
+            <li><a href="../PROJECT2/index.html#citations">Citations</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
+
 
 </html>

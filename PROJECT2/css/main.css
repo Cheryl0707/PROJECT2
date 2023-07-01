@@ -159,18 +159,15 @@ nav ul img {
 }
 
 .overlap {
-
   position: absolute;
 }
 
 /* shopping cart */
 .shopping-cart {
-  max-width: 1200px;
-  margin: 1rem;
   display: flex;
   gap: 3rem;
-
 }
+
 
 .shopping-cart h3 {
   font-size: 1rem;
@@ -238,8 +235,23 @@ input {
 }
 
 .payment_form {
-  max-width: 40rem;
-  padding-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top:3rem;
+}
+
+
+.address {
+  order: 1;
+  width: 48%;
+}
+
+.credit-card-info {
+  order: 2;
+  width: 48%;
 }
 
 .payment_form h2 {
@@ -283,10 +295,6 @@ input {
   cursor: pointer;
 }
 
-.credit-card-info {
-  margin-top: 3rem;
-  /* border:1px solid black; */
-}
 
 .credit-card-info h2 {
   margin-bottom: 0;

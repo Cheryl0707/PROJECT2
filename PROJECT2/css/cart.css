@@ -1,0 +1,32 @@
+.payment-submit-buttons{
+    display: flex;
+    gap:1rem;
+ 
+    align-items: center;
+    width:100%;
+    margin:0;
+
+}
+main{
+    margin:6rem 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .payment-form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .address, .credit-card-info{
+        width:100%;
+    }
+
+    main{
+        margin: 7rem 2rem;
+    }
+    .payment-submit-buttons{
+        flex-direction: column;
+        margin:0;
+        padding:0;
+        border: 2px solid red;
+    }
+}
