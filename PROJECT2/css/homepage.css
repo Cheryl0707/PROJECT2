@@ -133,11 +133,13 @@ section {
   /* margin-top: -70px; */
   /* Add margin to push content below the video */
 }
-.New-Arrivals{
+
+.New-Arrivals {
   height: 100%;
   margin-top: 20px;
 }
-.Trending-products{
+
+.Trending-products {
   height: 100%;
   margin-top: 20px;
 }
@@ -145,6 +147,10 @@ section {
 main {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.payment-submit-button {
+  margin: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -170,13 +176,18 @@ main {
     width: 100%;
   }
 
+  .payment-submit-button {
+    margin: 0.2rem;
+  }
+
 }
 
-@media screen and (min-width: 600px) and (max-width:900px) {
+@media screen and (min-width: 600px) and (max-width:960px) {
   /* .banner-video { */
-    /* margin-top: -160px;
+  /* margin-top: -160px;
     margin-right: -30px; */
   /* } */
+
 
   .header-text {
     font-size: 6rem;
@@ -185,5 +196,10 @@ main {
   .header-overlay {
     top: 70%;
     left: 40%
+  }
+
+  .payment-submit-button {
+    margin: 0.2rem;
+    width: 100%;
   }
 }

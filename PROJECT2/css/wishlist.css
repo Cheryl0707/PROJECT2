@@ -46,8 +46,6 @@ main {
 }
 
 .product-container {
-    border: 0.5px solid #ffffffb7;
-    /* background-color: #ffffff71; */
     background: linear-gradient(#ffffff7e, #ffffffec);
 }
 
