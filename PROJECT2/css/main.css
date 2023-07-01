@@ -54,8 +54,8 @@ input[type="text"]:focus {
 }
 
 
-nav ul img{
-  width:20px;
+nav ul img {
+  width: 20px;
 }
 
 
@@ -385,7 +385,8 @@ footer:focus {
   transition: color 0.3s ease;
 }
 
-.footer-content a:hover, .footer-content a:focus{
+.footer-content a:hover,
+.footer-content a:focus {
   color: black;
   text-decoration: underline;
   padding: 1rem;
@@ -418,13 +419,10 @@ main {
 
   .products {
     flex-direction: column;
-    /* margin-top: 2rem; */
+
   }
 
-  /* .product-container{
-    flex-direction: column;
-    margin-top: 2rem;
-  } */
+
   .shopping-cart {
     flex-direction: column;
   }
@@ -439,52 +437,55 @@ main {
 
 
   /* navbar css */
-  .menu{
+
+  /* 
+
+  .menu {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width:100%;
-    /* border: 1px solid black; */
-  }
+    width: 100%;
+  } */
 
-  .menu li{
+  /* .menu li {
     flex-direction: row;
-    /* border: 1px solid red; */
+
   }
 
-  .menu li a{
-    font-size:0.8rem;
+  .menu li a {
+    font-size: 0.8rem;
   }
-  .nav-regular{
+
+  .nav-regular {
     display: flex;
     flex-direction: row;
 
   }
 
-  .nav-icon{
-    /* border: 1px solid red; */
-    display:flex;
-    flex-direction:row;
+  .nav-icon {
+
+    display: flex;
+    flex-direction: row;
   }
 
   .burger-icon {
     display: block;
   }
 
-  
-  nav{
-    display:flex;
+
+  nav {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding:0;
+    padding: 0;
 
-    
+
 
   }
 
-  .logo img{
-    max-height:0.4rem;
+  .logo img {
+    max-height: 0.4rem;
   }
 
   #toggle:checked~.burger-icon:before {
@@ -500,7 +501,7 @@ main {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-  }
+  } */
 
 
   .footer .column {
@@ -509,9 +510,9 @@ main {
 
 
   /* for all the buttons */
-  .payment-submit-button{
-    width:100%;
-    margin-left:0;
+  .payment-submit-button {
+    width: 100%;
+    margin-left: 0;
   }
 
 
