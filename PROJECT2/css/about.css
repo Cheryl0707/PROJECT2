@@ -2,6 +2,9 @@
   position: relative;
   /* border: 10px solid red; */
   top: -50px;
+  height: 100vh;
+  background-color: #fff;
+  color: #333;
 }
 
 .banner-video {
@@ -40,21 +43,12 @@
 }
 
 
-section {
-  height: 100vh;
-  background-color: #fff;
-  color: #333;
-}
-
-
 .zigzag-section {
   display: flex;
   /* flex-wrap: wrap; */
   align-items: center;
   gap: 2rem;
-  /* border: 1px solid red; */
-  margin-bottom: 0;
-  padding-bottom: 0;
+  height:80vh;
 }
 
 .zigzag-image img,
@@ -141,6 +135,9 @@ section {
     flex-direction: column;
     justify-content: center;
     gap: 0;
+    margin:0;
+    padding:0;
+    height:auto;
   }
 
   .zigzag-image,
@@ -162,7 +159,8 @@ section {
   .zigzag-text2 h2,
   .zigzag-text h2 {
     font-size: 2rem;
-    margin: 0;
+    margin-bottom:0.4rem;
+    margin-top:0;
     padding: 0;
   }
 
@@ -194,6 +192,19 @@ section {
   .zigzag-text2 p,
   .zigzag-text p {
     font-size: 0.8rem;
+  }
+
+  .zigzag-section {
+    height:auto;
+  }
+
+  .zigzag-image,
+  .zigzag-text,
+  .zigzag-text2,
+  .zigzag-image2 {
+    margin: 0;
+    padding: 0;
+
   }
 
 }
