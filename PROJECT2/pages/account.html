@@ -15,90 +15,93 @@
 
 <body>
   <div class="header">
-    <nav>
-      <input type="checkbox" id="toggle">
-      <label for="toggle" class="burger-icon">&#9776;</label>
-      <a href="../home.html" class="logo"><img src="../images/LOGO.png" alt="Logo"></a>
-      <ul class="menu">
-        <div class="nav-regular">
+    <nav class="navbar">
+      <div class="navbar-main">
+        <div class="navbar-logo">
+          <a href="home.html" class="logo"><img src="../images/LOGO.png" alt="Logo"></a>
+        </div>
+        <div class="navbar-middle">
+          <ul class="nav-icon">
+            <li><a href="cart.html"><img src="../images/shopping-cart.png" alt="shopping-cart-icon"></a></li>
+            <li><a href="account.html"><img src="../images/user.png" alt="user-aacount-icon"></a></li>
+            <li><a href="wishlist.html"><img src="../images/shopping-bag.png" alt="wishlist-icon"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu">
+        <ul class="nav-regular">
           <li><a href="../home.html">Home</a></li>
           <li><a href="product-CustomizedLogo.html">Branding</a></li>
           <li><a href="product-Readytowear.html">Clothes</a></li>
           <li><a href="aboutCompany.html">About Us</a></li>
-        </div>
-        <div class="nav-icon">
-          <li><a href="cart.html"><img src="../images/shopping-cart.png" alt="shopping-cart-icon"></a></li>
-          <li><a href="account.html"><img src="../images/user.png" alt="user-aacount-icon"></a></li>
-          <li><a href="wishlist.html"><img src="../images/shopping-bag.png" alt="wishlist-icon"></a></li>
-        </div>
-      </ul>
+        </ul>
+      </div>
     </nav>
   </div>
 
-  <section>
-    <div class="container">
-      <h2>Account Page</h2>
-      <div class="account-details">
-        <img src="../images/avatar.png" alt="User Avatar">
-        <div class="user-info">
-          <h3>John Doe</h3>
-          <p>Email: johndoe@example.com</p>
-          <p>Location: New York, USA</p>
+  <main>
+    <section>
+      <div class="account-container">
+        <h2>Account Page</h2>
+        <div class="account-details">
+          <img src="../images/avatar.png" alt="User Avatar">
+          <div class="user-info">
+            <h3>John Doe</h3>
+            <p>Email: johndoe@example.com</p>
+            <p>Location: New York, USA</p>
+          </div>
         </div>
-      </div>
-      <div class="account-actions">
-        <button class="payment-submit-button">Edit Profile</button>
-        <button class="payment-submit-button">Change Password</button>
-        <button class="payment-submit-button">Logout</button>
-      </div>
+        <div class="account-actions">
+          <button class="payment-submit-button">Edit Profile</button>
+          <button class="payment-submit-button">Change Password</button>
+          <button class="payment-submit-button">Logout</button>
+        </div>
 
-      <h3>Recent Orders</h3>
-      <div class="products">
-        <div class="product-container">
-          <h4>Order 1</h4>
-          <p class="order-info">Order Date: 2023-06-13</p>
-          <p class="order-info">Total Amount: $50</p>
-        </div>
-        <div class="product-container">
-          <h4>Order 2</h4>
-          <p class="order-info">Order Date: 2023-06-12</p>
-          <p class="order-info">Total Amount: $75</p>
-        </div>
-        <div class="product-container">
-          <h4>Order 3</h4>
-          <p class="order-info">Order Date: 2023-06-10</p>
-          <p class="order-info">Total Amount: $30</p>
-        </div>
-      </div>
-      <div class="saved-payments">
-        <h3>Saved Payments</h3>
+        <h3>Recent Orders</h3>
         <div class="products">
           <div class="product-container">
-            <h4>Payment 1</h4>
-            <p class="order-info">Card Type: Visa</p>
-            <p class="order-info">Card Number: **** **** **** 1234</p>
+            <h4>Order 1</h4>
+            <p class="order-info">Order Date: 2023-06-13</p>
+            <p class="order-info">Total Amount: $50</p>
           </div>
           <div class="product-container">
-            <h4>Payment 2</h4>
-            <p class="order-info">Card Type: Mastercard</p>
-            <p class="order-info">Card Number: **** **** **** 5678</p>
+            <h4>Order 2</h4>
+            <p class="order-info">Order Date: 2023-06-12</p>
+            <p class="order-info">Total Amount: $75</p>
           </div>
           <div class="product-container">
-            <h4>Payment 3</h4>
-            <p class="order-info">Card Type: American Express</p>
-            <p class="order-info">Card Number: **** **** **** 9012</p>
+            <h4>Order 3</h4>
+            <p class="order-info">Order Date: 2023-06-10</p>
+            <p class="order-info">Total Amount: $30</p>
+          </div>
+        </div>
+        <div class="saved-payments">
+          <h3>Saved Payments</h3>
+          <div class="products">
+            <div class="product-container">
+              <h4>Payment 1</h4>
+              <p class="order-info">Card Type: Visa</p>
+              <p class="order-info">Card Number: **** **** **** 1234</p>
+            </div>
+            <div class="product-container">
+              <h4>Payment 2</h4>
+              <p class="order-info">Card Type: Mastercard</p>
+              <p class="order-info">Card Number: **** **** **** 5678</p>
+            </div>
+            <div class="product-container">
+              <h4>Payment 3</h4>
+              <p class="order-info">Card Type: American Express</p>
+              <p class="order-info">Card Number: **** **** **** 9012</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="footer-content">
       <div>
-        <input type="checkbox" id="toggle">
-        <label for="toggle" class="burger-icon">&#9776;</label>
         <a href="home.html" class="logo"><img src="../images/LOGO.png" alt="Logo"></a>
       </div>
       <div class="container">
