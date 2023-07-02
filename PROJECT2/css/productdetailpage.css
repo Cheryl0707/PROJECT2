@@ -90,7 +90,6 @@
 
 .mySlides img {
   width: 100%;
-
 }
 
 
@@ -244,6 +243,7 @@
 }
 
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 610px) {
   .contact-text h2 {
     font-size: 1.4rem;
@@ -288,4 +288,61 @@
   .contact-form {
     align-items: center;
   }
+=======
+@media screen and (max-width: 600px) {
+ 
+
+  .zigzag-section {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .zigzag-image,
+  .zigzag-text,
+  .zigzag-text2,
+  .zigzag-image2 {
+    order: initial;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .zigzag-image,
+  .zigzag-image2 {
+    margin-bottom: 3rem;
+  }
+
+  .zigzag-text2 h2,
+  .zigzag-text h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .zigzag-text2 p,
+  .zigzag-text p {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width:900px) {
+
+  
+
+  .zigzag-text2 h2,
+  .zigzag-text h2 {
+    font-size: 2rem;
+  }
+
+  .zigzag-text2 p,
+  .zigzag-text p {
+    font-size: 0.8rem;
+  }
+
+>>>>>>> Stashed changes
 }
