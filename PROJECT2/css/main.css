@@ -67,11 +67,13 @@ nav ul img {
   gap: 1rem;
   flex-wrap: wrap;
   border: none;
+
 }
 
 .products>div {
   transition: box-shadow 0.4s;
   flex: 1;
+
 }
 
 .products>div:hover,
@@ -81,6 +83,7 @@ nav ul img {
 
 .product-container {
   border: 0.5px solid lightslategray;
+  width:32%;
 }
 
 .product-container-image {
@@ -435,7 +438,7 @@ main {
 
   .products {
     flex-direction: column;
-
+    width:100%;
   }
 
 
