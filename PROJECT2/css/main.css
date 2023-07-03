@@ -434,7 +434,7 @@ main {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 
   .products {
     flex-direction: column;
@@ -482,10 +482,6 @@ main {
     margin-right:1.8rem;
   }
 
-  /* .menu li{
-  margin:0.8rem;
-  border: 2px solid blue;
-} */
 
   .logo img{
     width:80px;
@@ -493,28 +489,31 @@ main {
     margin:0;
     padding:0;
   }
+  .logo{
+    margin:0 30%;
+    align-items: flex-start;
+  }
 
 
   /* footer css */
 
   .footer .column {
     width: auto;
-    /* border: 1px solid red; */
-    /* border: 1px solid red; */
+    align-items: flex-start;
   }
 
   .footer .container {
-    align-items: center;
+    display:flex;
+    align-items: flex-start;
     flex-direction: column;
-    /* border: 1px solid red; */
     justify-content: center;
   }
 
   .footer-content {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    /* border: 1px solid red; */
+    margin: 0 30%;
   }
 
   /* for all the buttons */
