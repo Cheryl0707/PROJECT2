@@ -484,7 +484,7 @@ main {
 
 
   .logo img{
-    width:80px;
+    width:60px;
     /* border:3px solid red; */
     margin:0;
     padding:0;
@@ -513,7 +513,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 0 30%;
+    margin: 0 35%;
   }
 
   /* for all the buttons */

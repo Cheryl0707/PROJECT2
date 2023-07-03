@@ -47,8 +47,9 @@
   display: flex;
   /* flex-wrap: wrap; */
   align-items: center;
-  gap: 2rem;
-  height: 80vh;
+  gap: 4rem;
+  height:auto;
+border: 1px solid red;
 }
 
 .zigzag-image img,
@@ -106,6 +107,8 @@
 .zigzag-image2 {
   margin: 0;
 }
+
+
 
 
 /* contact us css */
@@ -180,6 +183,10 @@
 
 
 @media screen and (max-width: 610px) {
+  main {
+    margin: 1rem;
+    /* border:1px solid red; */
+  }
   .company-updates h2 {
     font-size: 0.8rem;
   }
@@ -201,13 +208,16 @@
     width: 100%;
   }
 
+  /* zigzag responsiveness */
   .zigzag-section {
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
+    align-items: flex-start;
     gap: 0;
     margin: 0;
     padding: 0;
-    height: auto;
+    margin-bottom: 3rem;
+    ;
   }
 
   .zigzag-image,
@@ -228,7 +238,7 @@
 
   .zigzag-text2 h2,
   .zigzag-text h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 0.4rem;
     margin-top: 0;
     padding: 0;
@@ -236,7 +246,7 @@
 
   .zigzag-text2 p,
   .zigzag-text p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
   }
@@ -323,10 +333,6 @@
   .zigzag-text2 p,
   .zigzag-text p {
     font-size: 0.8rem;
-  }
-
-  .zigzag-section {
-    height: 40vh;
   }
 
   .zigzag-image,

@@ -161,11 +161,12 @@ main {
 
 .showroom {
   display: grid;
-  margin-bottom: 4rem;
-  grid-template-columns: 33% 33% 33%;
-  /* margin: 3rem; */
-  /* gap: 1rem; */
+  grid-template-columns: 31% 31% 31%;
   justify-content: space-evenly;
+}
+
+.product-container{
+  margin-bottom: 1rem;
 }
 
 .product-container-info {
@@ -177,6 +178,8 @@ main {
 .payment-submit-button {
   margin: 0;
 }
+
+
 
 .zigzag-section {
   display: flex;
@@ -307,7 +310,7 @@ main {
 
   .zigzag-text2 h2,
   .zigzag-text h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 0.4rem;
     margin-top: 0;
     padding: 0;
@@ -315,7 +318,7 @@ main {
 
   .zigzag-text2 p,
   .zigzag-text p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
   }
@@ -407,12 +410,6 @@ main {
   .contact-form {
     align-items: center;
   }
-.container1{
-  /* height: 100%;
-  width:auto;
-  margin-bottom: 3rem; */
-
-}
 
   /* >>>>>>> Stashed changes */
 }
