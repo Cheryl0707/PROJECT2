@@ -139,7 +139,7 @@
 }
 
 .contact-text h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   letter-spacing: 0.03rem;
   margin-bottom: 2rem;
 }
@@ -148,6 +148,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap:0.6rem;
 }
 
 .credit-card-info label {
@@ -170,10 +171,11 @@
 }
 
 
-.payment-submit-button {
+.contact-text .payment-submit-button {
   margin: 1rem 0;
-  width: 70%;
+  width: 96%;
 }
+
 
 
 
@@ -240,20 +242,22 @@
   }
 
   .contact-text h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    margin:0;
+    margin-bottom: 1.5rem;
+    text-align: center;
   }
   .contact-text{
-    margin-left: 0;
-    margin-right: 0;
+    margin:0;
+    width:100%;
+    padding:1rem;
+
   }
 
   .contact-section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-    margin-left: 0;
-    margin-right: 0;
+    /* border:1px solid red; */
+    padding:0;
+    gap:0;
   }
 
   .contact-section-img {
@@ -261,7 +265,28 @@
     width: 30%;
   }
   .contact-form{
-    align-items: center;
+    align-items: flex-start;
+    width:100%;
+    /* border:1px solid red; */
+    margin:0;
+    padding:0;
+    gap:0.2rem;
+  }
+  .contact-form input{
+    width:96%;
+  }
+  .contact-form input::placeholder{
+    /* border:1px solid red; */
+    padding:0;
+    margin:0;
+  }
+  .contact-form label{
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  .contact-text .payment-submit-button{
+    width:100%;
+    margin-top: 0.6rem;
   }
 
 }
