@@ -12,6 +12,22 @@ main {
     /* border: 2px solid red; */
 }
 
+.payment_form label {
+    display: block;
+    padding-bottom:0.5rem;
+    padding-top: 1rem;
+  
+  }
+  
+  .payment_form input[type="text"] {
+    min-width: 93%;
+    padding: 0.6rem;
+    border: 0.5px solid #777777;
+    border-radius: 1px;
+    margin-bottom: 1.3rem;
+  
+  }
+
 @media only screen and (max-width: 600px) {
     #shopping-cart {
         margin-top: 12rem;

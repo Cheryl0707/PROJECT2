@@ -1,3 +1,12 @@
+/* *{
+    border:1px solid red;
+} */
+
+span{
+    color:black;
+    font-weight: bolder;
+}
+
 main {
     margin-top: 4rem;
     margin-bottom: 3rem;
@@ -8,9 +17,10 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: top;
     gap: 2rem;
+    /* border:3px solid black; */
 }
 
 .product-image {
@@ -55,7 +65,7 @@ main {
 
 .product-description {
     font-size: 1rem;
-    color: #555;
+    color: #666666;
     margin-bottom: 20px;
     border-bottom: 0.2px dashed #555;
     margin-top: 2rem;
@@ -65,7 +75,7 @@ main {
 }
 
 .product-description h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .product-description-borderone {
@@ -74,14 +84,16 @@ main {
 }
 
 .product-description li {
-    font-size: 0.8rem;
+    font-size: 1rem;
     list-style-type: circle;
     margin-left: 2rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.4rem;
 
 }
 
 .product-description p {
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
 

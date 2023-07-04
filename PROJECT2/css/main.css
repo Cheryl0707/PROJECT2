@@ -35,17 +35,19 @@ a:focus img {
   /* border:2px solid red; */
 }
 .viewmore {
-  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 90%;
+  width: 100%;
   text-align: center;
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  color: rgb(0, 0, 0);
-  padding: 10px;
+  background-color: rgba(242, 242, 242, 0.481);
+  color: #04AA6D;
   opacity: 0;
   transition: opacity 0.6s;
+  margin:0;
 }
 
 label {
@@ -188,6 +190,9 @@ nav ul img {
 .shopping-cart {
   display: flex;
   gap: 3rem;
+  width:85%;
+  margin:auto;
+  margin-bottom: 4rem;
 }
 
 
@@ -257,12 +262,14 @@ input {
 }
 
 .payment_form {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 3rem;
+  margin:auto;
+  gap:2rem;
 }
 
 
@@ -305,6 +312,9 @@ input {
   width: 96.5%;
   text-align: center;
   margin-bottom: 0.5rem;
+  border: 1px solid red;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
 }
 
 .radio-button-for-card label {

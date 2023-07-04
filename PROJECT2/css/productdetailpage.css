@@ -77,9 +77,10 @@ main {
 
 
 .container1 {
+  /* border: 2px solid red; */
   position: relative;
-  height: 65vh;
-  margin-bottom: 4rem;
+  height: 35vw;
+  /* margin-bottom: 4rem; */
 }
 
 
@@ -101,11 +102,13 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: -1;
   /* margin-bottom: 60px; */
 }
 
 .mySlides img {
   width: 100%;
+  /* min-width:500px; */
 }
 
 
@@ -114,12 +117,22 @@ main {
   cursor: pointer;
 }
 
+.slidebuttons{
+  /* border: 2px solid red; */
+  height:100%;
+  display:flex;
+  /* background-color: #04AA6D; */
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+}
 /* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
+
+  /* position: absolute; */
+  /* top: 50%; */
   width: auto;
   padding: 16px;
   color: rgb(0, 0, 0);
@@ -250,18 +263,9 @@ main {
 }
 
 
+
 /* <<<<<<< Updated upstream */
 @media screen and (max-width: 610px) {
-
-  /* .container1 {
-    height: 100%;
-    width: auto;
-    border: black 1px solid;
-  }
-
-  .container img {
-    width: 100%;
-  } */
 
 
   .showroom {
