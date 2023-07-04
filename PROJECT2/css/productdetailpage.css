@@ -176,6 +176,7 @@ main {
   display: grid;
   grid-template-columns: 31% 31% 31%;
   justify-content: space-evenly;
+  gap:1rem;
 }
 
 .product-container{
@@ -381,6 +382,11 @@ main {
     margin-top: 0.6rem;
   }
 
+  .payment-submit-button {
+    margin: 0.2rem;
+    width: 100%;
+  }
+
 
 }
 
@@ -414,6 +420,16 @@ main {
   .contact-form {
     align-items: center;
   }
+
+  .product-container-info button{
+    display:block;
+    /* flex:1; */
+    width:100%;
+}
+.payment-submit-button {
+  margin: 0.2rem;
+  width: 100%;
+}
 
   /* >>>>>>> Stashed changes */
 }

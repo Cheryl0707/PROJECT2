@@ -88,7 +88,7 @@ nav ul img {
   gap: 1rem;
   flex-wrap: wrap;
   border: none;
-
+  /* border:1px solid red; */
 }
 
 .products>div {
@@ -103,8 +103,10 @@ nav ul img {
 }
 
 .product-container {
-  border: 0.5px solid lightslategray;
+  border: 0.3px solid rgb(152, 156, 161);
   width: 100%;
+  /* border:1px solid red; */
+  margin-bottom: 1rem;
 }
 
 .product-container-image {
