@@ -28,9 +28,11 @@ section {
 
 /* Shorten the default width of the <p> element, but ensure it is still responsive when the viewport shrinks. */
 
-p {
+.content-p {
+  font-size: 1.8rem;
+  margin: 0;
   max-width: 100%;
-
+  /* border:1px solid red; */
 }
 
 /* 
@@ -380,3 +382,18 @@ h6 {
   font-size: 3rem;
   margin:0;
 }
+
+.header-box h2{
+  margin:0;
+  font-size: 2.4rem;
+}
+.header-box h3{
+  margin:0;
+  font-size: 1.6rem;
+}
+.header-box h4{
+  margin:0;
+  font-size: 1.2rem;
+}
+
+
