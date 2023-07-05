@@ -68,6 +68,7 @@
   position: relative;
   /* border: 10px solid red; */
   top: -50px;
+  height: 100vh;
 }
 
 .banner-video {
@@ -92,6 +93,12 @@
   transform: translate(-50%, -50%);
   /* padding: 20px; */
   text-align: left;
+  color: white;
+}
+
+.header-overlay p {
+  font-size: 1.8rem;
+  margin: 0;
 }
 
 .header-overlay h2 {
@@ -107,7 +114,7 @@
 
 
 section {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 50px;
   background-color: #fff;
   color: #333;
@@ -117,21 +124,92 @@ section {
 
 .New-Arrivals {
   height: 100%;
-  margin-top: 20px;
+  margin-top: 10rem;
+  /* border: 1px solid red; */
 }
 
 .Trending-products {
   height: 100%;
   margin-top: 20px;
 }
-/* 
-main {
-  margin-left: 1rem;
-  margin-right: 1rem;
-} */
+
 
 .payment-submit-button {
   margin: 0;
+}
+
+.zigzag-section {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  gap: 4rem;
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0;
+
+}
+
+.zigzag-image img,
+.zigzag-image2 img {
+  width: 100%;
+  display: block;
+  filter: grayscale(20);
+}
+
+.zigzag-image {
+  width: 50%;
+  order: 1;
+  /* border: 1px solid red; */
+}
+
+.zigzag-text {
+  width: 45%;
+
+  order: 2;
+  /* border: 1px solid yellow; */
+  margin-right: 1.5rem;
+  /* margin-top: 0; */
+}
+
+
+.zigzag-image2 {
+  width: 50%;
+  order: 2;
+  /* flex-shrink: 5; */
+  /* border: 5px solid blue; */
+}
+
+
+.zigzag-text2 {
+  width: 45%;
+  order: 1;
+  /* flex-shrink: 1; */
+  /* border: 5px solid pink; */
+  margin-left: 1.5rem;
+}
+
+.zigzag-text2 h2,
+.zigzag-text h2 {
+  font-size: 3rem;
+  font-family: "Ysabeau Bold";
+  text-transform: uppercase;
+  margin-bottom: 0;
+  letter-spacing: 0.1rem;
+}
+
+.zigzag-text2 p,
+.zigzag-text p {
+  font-size: 1rem;
+}
+
+.zigzag-image,
+.zigzag-image2 {
+  margin: 0;
+}
+
+.zigzag-text .payment-submit-button {
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -148,8 +226,13 @@ main {
   }
 
   .header-overlay {
-    top: 50%;
-    left: 48%;
+    top: 70%;
+    /* left: 48%; */
+  }
+
+  .header-overlay p {
+    font-size: 1rem;
+    margin: 0;
   }
 
   .banner-video {
@@ -160,6 +243,54 @@ main {
   .payment-submit-button {
     margin: 0.2rem;
   }
+
+  /* zigzag responsiveness */
+  .zigzag-section {
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .zigzag-image,
+  .zigzag-text,
+  .zigzag-text2,
+  .zigzag-image2 {
+    order: initial;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .zigzag-image,
+  .zigzag-image2 {
+    margin-bottom: 3rem;
+  }
+
+  .zigzag-text2 h2,
+  .zigzag-text h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .zigzag-text2 p,
+  .zigzag-text p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .zigzag-text .payment-submit-button {
+    margin-top: 1.5rem;
+  }
+
+
 
 }
 
@@ -179,8 +310,31 @@ main {
     left: 40%
   }
 
+  .header-overlay p {
+    font-size: 1.2rem;
+  }
+
   .payment-submit-button {
     margin: 0.2rem;
     width: 100%;
+  }
+
+  .zigzag-text2 h2,
+  .zigzag-text h2 {
+    font-size: 2rem;
+  }
+
+  .zigzag-text2 p,
+  .zigzag-text p {
+    font-size: 0.8rem;
+  }
+
+  .zigzag-image,
+  .zigzag-text,
+  .zigzag-text2,
+  .zigzag-image2 {
+    margin: 0;
+    padding: 0;
+
   }
 }

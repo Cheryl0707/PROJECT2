@@ -313,10 +313,9 @@ input {
   justify-content: left;
   width: 96.5%;
   text-align: center;
-  margin-bottom: 0.5rem;
-  border: 1px solid red;
-  margin-top: 3rem;
-  margin-bottom: 0.8rem;
+  /* border: 1px solid red; */
+
+  margin-bottom: 1.1rem;
 }
 
 .radio-button-for-card label {

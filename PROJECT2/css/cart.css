@@ -1,10 +1,20 @@
 .payment-submit-buttons {
+    order:3;
     display: flex;
-    gap: 1rem;
-
-    align-items: center;
+    gap: 3rem;
+    align-items: stretch;
+    justify-content: center;
     width: 100%;
-    margin: 0;
+    margin:auto;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+.payment-submit-button{
+    /* border: 2px solid red; */
+    /* margin-left: 2.5rem; */
+    margin-top: 0;
+    width:100%;
+    /* min-width: 44%; */
 }
 
 main {
@@ -14,21 +24,28 @@ main {
 
 .payment_form label {
     display: block;
-    padding-bottom:0.5rem;
+    padding-bottom: 0.5rem;
     padding-top: 1rem;
-  
-  }
-  
-  .payment_form input[type="text"] {
+
+}
+.payment_form{
+    /* border: 2px solid red; */
+
+}
+.address{
+    order:1;
+}
+
+.payment_form input[type="text"] {
     min-width: 93%;
     padding: 0.6rem;
     border: 0.5px solid #777777;
     border-radius: 1px;
     margin-bottom: 1.3rem;
-  
-  }
 
-@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 680px) {
     #shopping-cart {
         margin-top: 12rem;
         /* border: 2px solid red; */
@@ -45,7 +62,8 @@ main {
         width: 100%;
         /* border: 2px solid rgb(0, 0, 0); */
     }
-    .payment_form h2{
+
+    .payment_form h2 {
         font-size: 1.4rem;
         margin-bottom: 0.8rem;
     }
@@ -53,24 +71,27 @@ main {
     main {
         margin: 0 1rem;
     }
-    .payment_form label{
+
+    .payment_form label {
         margin-top: 0.6rem;
         margin-bottom: 0.4rem;
         font-size: 1rem;
-        padding:0;
+        padding: 0;
         /* border: 2px solid red; */
     }
+
     .payment_form input[type="text"] {
-        margin:0;
-        padding:0.4rem;
-        width:96%;
+        margin: 0;
+        padding: 0.4rem;
+        width: 96%;
         /* border: 2px solid red; */
     }
 
     .payment-submit-buttons {
         flex-direction: column;
-        margin: 2rem 0;
+        margin:  0;
         padding: 0;
+        gap:1rem;
 
         /* border: 2px solid red; */
     }
@@ -79,6 +100,7 @@ main {
         margin: 0;
         /* border: 2px solid red; */
     }
+
     .payment_form input::placeholder {
         font-size: 0.7rem;
     }
