@@ -2,8 +2,8 @@
     border:1px solid red;
 } */
 
-span{
-    color:black;
+span {
+    color: black;
     font-weight: bolder;
 }
 
@@ -18,7 +18,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: top;
+    /* align-items: top; */
     gap: 2rem;
     /* border:3px solid black; */
 }
@@ -60,13 +60,23 @@ main {
 
 .product-price {
     font-size: 1rem;
-    margin: 0.5rem 0;
+    /* margin: 0.5rem 0; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /* border: 2px solid red; */
+    gap: 0.5rem;
+}
+
+.product-price p {
+    /* border: 2px solid red; */
+    margin: 0;
 }
 
 .product-description {
     font-size: 1rem;
     color: #666666;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     border-bottom: 0.2px dashed #555;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -86,7 +96,7 @@ main {
 .product-description li {
     font-size: 1rem;
     list-style-type: circle;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     letter-spacing: 0.05rem;
     line-height: 1.4rem;
 
@@ -118,20 +128,21 @@ main {
         justify-content: center;
         align-items: center;
         width: auto;
-
         /* border: 2px solid red; */
+        gap: 1rem;
     }
 
     .product-image {
         display: flex;
-        justify-content: baseline;
+        justify-content: center;
         /* border: 2px solid red; */
         width: 100%;
     }
 
     .product-image img {
-        height: 28rem;
-        width: auto;
+        /* height: 28rem;
+        width: auto; */
+        max-width: 50%;
         /* border: 2px solid red; */
     }
 
@@ -141,6 +152,21 @@ main {
         font-size: 4rem;
         margin-bottom: 0;
         padding: 0;
+    }
+
+    .product-title {
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+
+    .product-price {
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -10rem; */
+        padding: 0;
+        /* border: 2px solid red; */
 
     }
 
@@ -154,7 +180,18 @@ main {
     }
 
     .payment-submit-button {
+        /* justify-content: center; */
         width: 50%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin:0; */
+        padding: 0;
+        /* border: 2px solid red; */
     }
 
 }
@@ -209,6 +246,8 @@ main {
 
     .product-description li {
         font-size: 1rem;
+        /* border: 2px solid red; */
+        margin: 0;
     }
 
     .product-description p {

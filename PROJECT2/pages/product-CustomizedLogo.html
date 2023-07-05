@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -178,15 +178,23 @@
         <h2>Contact Us For Branding Services</h2>
         <div class="contact-form">
           <label for="name">Name</label>
-          <input type="text" placeholder="Your Name" required>
+          <input type="text" id="name" placeholder="Your Name" required>
+          
           <label for="email">Contact Email</label>
-          <input type="text" placeholder="Your Email" required>
+          <input type="text" id="email" placeholder="Your Email" required>
+          
           <label for="budget">Your Budget</label>
-          <input type="text" placeholder="Budget" required>
-          <label for="Style">Wannabe Style</label>
-          <input type="text" placeholder="Style" optional>
-          <button class="payment-submit-button" type="submit">SEND MESSAGE</button>
+          <input type="text" id="budget" placeholder="Budget" required>
+          
+          <label for="style">Wannabe Style</label>
+          <input type="text" id="style" placeholder="Style">
+
+          <label for="deadline">Ideal Deadline</label>
+          <input type="text" id="deadline" placeholder="2023-08-01">
+          
+          <button class="payment-submit-button" type="submit" title="Click to send the message">SEND MESSAGE</button>
         </div>
+        
       </div>
     </section>
   </main>

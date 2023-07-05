@@ -78,7 +78,7 @@ p {
 .navbar-main{
   display:flex;
   align-items: flex-end;
-  justify-content: baseline;
+  /* justify-content: baseline; */
   margin-left:2rem;
   /* border:1px solid red; */
 }
@@ -128,7 +128,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  align-items: right;
+  /* align-items: right; */
   padding:0;
   justify-content: space-between;
   margin-right:2rem;
