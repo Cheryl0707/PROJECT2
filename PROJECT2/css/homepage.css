@@ -211,6 +211,12 @@ section {
 .zigzag-text .payment-submit-button {
   width: 100%;
 }
+.zigzag-text-header{
+  flex-direction: row;
+  max-width:100%;
+  gap:0.6rem;
+  /* border:2px solid red; */
+}
 
 @media screen and (max-width: 600px) {
   .company-updates h2 {
@@ -289,6 +295,7 @@ section {
   .zigzag-text .payment-submit-button {
     margin-top: 1.5rem;
   }
+
 
 
 

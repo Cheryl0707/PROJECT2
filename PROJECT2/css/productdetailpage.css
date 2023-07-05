@@ -263,6 +263,13 @@ main {
   margin: 0;
 }
 
+.zigzag-text-header{
+  flex-direction: row;
+  max-width:100%;
+  gap:0.6rem;
+  /* border:2px solid red; */
+}
+
 
 
 
