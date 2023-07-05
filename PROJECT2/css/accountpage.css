@@ -48,7 +48,10 @@
 .saved-payments {
     margin-top: 2rem;
 }
-
+.product-container{
+    /* border:2px solid red; */
+    padding-bottom:1rem;
+}
 
 
 

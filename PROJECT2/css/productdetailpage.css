@@ -215,7 +215,7 @@ main {
 }
 
 .zigzag-image {
-  width: 55%;
+  width: 50%;
   order: 1;
   /* border: 1px solid red; */
 }
@@ -229,9 +229,9 @@ main {
 
 
 .zigzag-image2 {
-  width: 55%;
+  width: 50%;
   order: 2;
-  flex-shrink: 5;
+  /* flex-shrink: 5; */
   /* border: 5px solid blue; */
 }
 
@@ -239,7 +239,7 @@ main {
 .zigzag-text2 {
   width: 45%;
   order: 1;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   /* border: 5px solid pink; */
   margin-left: 1.5rem;
 }
@@ -247,15 +247,15 @@ main {
 .zigzag-text2 h2,
 .zigzag-text h2 {
   font-size: 3rem;
-  font-family: Ysabeau Bold;
+  font-family: "Ysabeau Bold";
   text-transform: uppercase;
   margin-bottom: 0;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.1rem;
 }
 
 .zigzag-text2 p,
 .zigzag-text p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .zigzag-image,

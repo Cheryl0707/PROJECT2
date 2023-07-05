@@ -43,12 +43,17 @@
 }
 
 
+
 .zigzag-section {
   display: flex;
   /* flex-wrap: wrap; */
   align-items: center;
   gap: 4rem;
-  height:auto;
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding-bottom: 0;
+
 }
 
 .zigzag-image img,
@@ -59,7 +64,7 @@
 }
 
 .zigzag-image {
-  width: 55%;
+  width: 50%;
   order: 1;
   /* border: 1px solid red; */
 }
@@ -73,9 +78,9 @@
 
 
 .zigzag-image2 {
-  width: 55%;
+  width: 50%;
   order: 2;
-  flex-shrink: 5;
+  /* flex-shrink: 5; */
   /* border: 5px solid blue; */
 }
 
@@ -83,7 +88,7 @@
 .zigzag-text2 {
   width: 45%;
   order: 1;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   /* border: 5px solid pink; */
   margin-left: 1.5rem;
 }
@@ -95,19 +100,18 @@
   text-transform: uppercase;
   margin-bottom: 0;
   letter-spacing: 0.1rem;
-  /* border:2px solid red; */
 }
-
 
 .zigzag-text2 p,
 .zigzag-text p {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .zigzag-image,
 .zigzag-image2 {
   margin: 0;
 }
+
 
 
 
@@ -218,7 +222,6 @@
     margin: 0;
     padding: 0;
     margin-bottom: 3rem;
-    ;
   }
 
   .zigzag-image,
@@ -326,6 +329,9 @@
     left: 40%
   }
 
+
+
+  
   .zigzag-text2 h2,
   .zigzag-text h2 {
     font-size: 2rem;
@@ -344,5 +350,20 @@
     padding: 0;
 
   }
+  /* .zigzag-section {
+    border: 2px solid red;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .zigzag-image,
+  .zigzag-text,
+  .zigzag-text2,
+  .zigzag-image2 {
+    width:70%;
+  } */
 
 }
