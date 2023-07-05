@@ -265,6 +265,7 @@ main {
 
 
 
+
 /* <<<<<<< Updated upstream */
 @media screen and (max-width: 610px) {
 
@@ -385,6 +386,11 @@ main {
   .payment-submit-button {
     margin: 0.2rem;
     width: 100%;
+  }
+  .zigzag-text-header{
+    max-width: 100%;
+    gap: 0.6rem;
+    /* border:1px solid red; */
   }
 
 

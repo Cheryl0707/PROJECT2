@@ -5,6 +5,7 @@
 
 
 
+
 .company-updates {
   background-position: center;
   background-size: cover;
@@ -165,7 +166,6 @@ section {
 
 .zigzag-text {
   width: 45%;
-
   order: 2;
   /* border: 1px solid yellow; */
   margin-right: 1.5rem;

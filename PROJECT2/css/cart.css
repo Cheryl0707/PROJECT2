@@ -28,10 +28,19 @@ main {
     padding-top: 1rem;
 
 }
-.payment_form{
-    /* border: 2px solid red; */
+.zigzag-text-header-line1{
+    color:#000000;
+    font-size: 2rem;
+    margin:0;
+  
+  
+  }
+  .zigzag-text-header-line2{
+    color:#04AA6D;
+    font-size: 2rem;
+    margin:0;
+  }
 
-}
 .address{
     order:1;
 }
@@ -41,11 +50,11 @@ main {
     padding: 0.6rem;
     border: 0.5px solid #777777;
     border-radius: 1px;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1.2rem;
 
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 740px) {
     #shopping-cart {
         margin-top: 12rem;
         /* border: 2px solid red; */
@@ -104,4 +113,15 @@ main {
     .payment_form input::placeholder {
         font-size: 0.7rem;
     }
+    .zigzag-text-header h2{
+        font-size: 1.6rem;
+      }
 }
+
+@media screen and (min-width: 740px) and (max-width:1270px){
+
+    .zigzag-text-header h2{
+      font-size: 1rem;
+    }
+    
+  }

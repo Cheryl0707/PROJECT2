@@ -339,3 +339,44 @@ h6 {
 .brandinfo h4 {
   margin-bottom: 0.4rem;
 }
+
+
+/* header style css */
+.header-box{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:1rem;
+  margin-top: 1.8rem;
+}
+.header-box-line1{
+  color:#000000;
+  font-size: 3rem;
+
+}
+.header-box-line2{
+  color:#04AA6D;
+  font-size: 3rem;
+}
+
+.zigzag-text-header{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:0.5rem;
+  max-width: 55%;
+
+}
+
+.zigzag-text-header-line1{
+  color:#000000;
+  font-size: 3rem;
+  margin:0;
+
+
+}
+.zigzag-text-header-line2{
+  color:#04AA6D;
+  font-size: 3rem;
+  margin:0;
+}
