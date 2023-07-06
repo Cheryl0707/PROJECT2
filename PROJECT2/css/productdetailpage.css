@@ -276,6 +276,14 @@ main {
 /* <<<<<<< Updated upstream */
 @media screen and (max-width: 610px) {
 
+  .container1{
+    margin-top: 2rem;
+    /* border:1px solid red; */
+  }
+  .branding-intro{
+    margin-top: 6rem;
+    /* border:1px solid red; */
+  }
 
   .showroom {
     display: grid;

@@ -128,8 +128,9 @@ main {
         justify-content: center;
         align-items: center;
         width: auto;
-        /* border: 2px solid red; */
+        border: 2px solid red;
         gap: 1rem;
+        margin-top: 4rem;
     }
 
     .product-image {
