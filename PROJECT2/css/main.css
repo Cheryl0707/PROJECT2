@@ -378,6 +378,32 @@ input {
   transition: background-color 0.5s ease-out;
 }
 
+/* this is payment section, submit button effects */
+.cart-payment-submit-button {
+  min-width: 100%;
+  margin-top: 2rem;
+  /* margin-left: 8rem; */
+  justify-content: center;
+  background-color: #ccc;
+  color: black;
+  text-decoration: none;
+  font-family: Ysabeau;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  /* border deleted  */
+  border: none;
+  display: inline;
+}
+
+.cart-payment-submit-button:hover,
+.cart-payment-submit-button:focus {
+  background-color: #04AA6D;
+  color: white;
+  text-decoration: none;
+  /* transitions on the button */
+  transition: background-color 0.5s ease-out;
+}
+
 /* footer css */
 
 footer {
