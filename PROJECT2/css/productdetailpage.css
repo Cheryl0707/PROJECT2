@@ -277,11 +277,8 @@ main {
 @media screen and (max-width: 610px) {
 
   .container1{
-    margin-top: 2rem;
-    /* border:1px solid red; */
-  }
-  .branding-intro{
-    margin-top: 6rem;
+    /* margin-top: 2rem; */
+    margin:0;
     /* border:1px solid red; */
   }
 
@@ -296,7 +293,7 @@ main {
 
   main {
     margin: 1rem;
-    margin-top: 12rem;
+    margin-top: 8rem;
     /* border:1px solid red; */
   }
 
