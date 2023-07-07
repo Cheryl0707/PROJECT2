@@ -71,17 +71,16 @@ section {
 
   color: #000000;
   align-items: flex-end;
-  padding-top: 0.5rem;
-  padding-bottom: 0.8rem;
   font-size: 1rem;
   /* border: 1px solid red; */
+  padding:1rem;
 }
 
 .navbar-main{
   display:flex;
   align-items: flex-end;
   /* justify-content: baseline; */
-  margin-left:2rem;
+  /* margin-left:2rem; */
   /* border:1px solid red; */
 }
 .navbar-middle{
@@ -108,22 +107,13 @@ section {
 .navbar .navbar-logo{
   margin:0;
   padding:0;
-  /* border:1px solid red; */
 
-}
-
-
-.logo {
-  padding-left: 1rem;
-  /* flex-grow: 1; */
-  /* border: 1px solid red; */
 }
 
 .logo img {
   margin:0;
   padding:0;
   max-height: 1.5rem;
-  display: flex;
 
 }
 .menu {
