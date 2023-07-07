@@ -486,9 +486,10 @@ main {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.header-p{
+
+.header-p {
   font-size: 1rem;
-  color:black;
+  color: black;
   text-align: center;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -559,24 +560,78 @@ main {
 
 
   /* footer css */
+  .footer-content .logo img {
+    margin-left: -1rem;
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+  }
 
   .footer .column {
-    width: auto;
-    align-items: flex-start;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    /* border:1px solid red; */
+    justify-content: center;
   }
 
   .footer .container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
+    gap: 0.8rem;
   }
+
+  /* .footer .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    gap: 0.8rem;
+  } */
 
   .footer-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    margin: 0 35%;
+    /* border:1px solid red; */
+    gap: 0;
+  }
+
+  .footer-content ul {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    grid-row-start: 1;
+    grid-row-end: 4;
+    /* width: 100%; */
+    margin: 0;
+
+  }
+
+  .footer-content .nav-icon {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: auto;
+    /* border: 1px solid red; */
+  }
+
+  .nav-icon img {
+    width: 20px;
+    height: 20px;
+    /* margin-left: 2rem; */
+  }
+
+  .footer-content li {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+  }
+
+  .footer-content h4 {
+    /* margin: 0 35%; */
+    font-weight: bolder;
+    /* border:1px solid red; */
   }
 
   /* for all the buttons */
@@ -609,15 +664,18 @@ main {
   .zigzag-text-header h2 {
     font-size: 1.6rem;
   }
-  .header-box{
-    margin:0;
+
+  .header-box {
+    margin: 0;
     /* border:1px solid red; */
   }
-  .zigzag-text-header{
+
+  .zigzag-text-header {
     max-width: 100%;
-    gap:0;
+    gap: 0;
     /* border:1px solid red; */
   }
+
 
 
 }
@@ -632,7 +690,7 @@ main {
     font-size: 2.4rem;
   }
 
-  .header-box{
+  .header-box {
     margin-top: 1.5rem;
     /* border:1px solid red; */
   }
